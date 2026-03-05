@@ -1,0 +1,42 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:cave_chamber",
+			"weight": 3
+		},
+		{
+			"structure": "nova_structures:cave_chamber_colony",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:cave_hut",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:cave_chamber_dungeon_colony",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:cave_chamber_archeology_ruins",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:deepslate_camp",
+			"weight": 3
+		},
+		{
+			"structure": "nova_structures:underground_house",
+			"weight": 3
+		},
+		{
+			"structure": "nova_structures:trial_dungeon",
+			"weight": 3
+		}
+	],
+	"placement": {
+		"spacing": 14,
+		"separation": 12,
+		"salt": 79984849,
+		"type": "minecraft:random_spread"
+	}
+}

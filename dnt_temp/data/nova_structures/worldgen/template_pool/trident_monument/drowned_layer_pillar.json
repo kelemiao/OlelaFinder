@@ -1,0 +1,420 @@
+{
+	"name": "nova_structures:trident_trial_monument/drowned_layer",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 34,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco1",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco2",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco4",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco5",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco6",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco7",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco8",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco9",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco10",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco11",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco12",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco13",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco14",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco15",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco16",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco17",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco18",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco19",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco20",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco21",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco22",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco23",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco24",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco25",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco26",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco27",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco28",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco29",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco30",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco31",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco32",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco33",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/floor_deco34",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar_deco1",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar_deco2",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar_deco3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar_deco4",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 36,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar1",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 36,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar2",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 33,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 33,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar4",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 42,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar5",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 42,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar6",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 42,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar7",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 22,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trident_trials_monument/drowned_stage/pillar/pillar8",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

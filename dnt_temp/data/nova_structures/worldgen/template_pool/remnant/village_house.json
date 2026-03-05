@@ -1,0 +1,156 @@
+{
+	"name": "nova_structures:well",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/lantern",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+						},
+			"weight": 40
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/big_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/small_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/big_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/big_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/butcher_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/butcher_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/church_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/library_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/library_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/small_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/small_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/small_tower_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/small_tower_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/smith_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/classic_village/smith_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_classic_village"
+			}
+		}
+	]
+}

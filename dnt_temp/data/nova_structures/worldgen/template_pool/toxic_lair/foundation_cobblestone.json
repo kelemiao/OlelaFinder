@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:toxic_lair/foundation_cobblestone",
+	"fallback": "nova_structures:toxic_lair/foundation_cobblestone",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:cobblestone_toxic_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

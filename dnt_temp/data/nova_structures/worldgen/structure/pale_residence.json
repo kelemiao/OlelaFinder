@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "minecraft:pale_garden",
+  "max_distance_from_center": 100,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:spider",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:zombie",
+          "maxCount": 2,
+          "minCount": 2,
+          "weight": 70
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "maxCount": 2,
+          "minCount": 2,
+          "weight": 30
+        },
+        {
+          "type": "minecraft:skeleton",
+          "maxCount": 2,
+          "minCount": 1,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:creeper",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 30
+        },
+        {
+          "type": "minecraft:slime",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:enderman",
+          "maxCount": 4,
+          "minCount": 1,
+          "weight": 15
+        },
+        {
+          "type": "minecraft:witch",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 15
+        }
+      ]
+    }
+  },
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "nova_structures:pale_residence/pale_residence_start",
+  "liquid_settings": "ignore_waterlogging",
+  "start_jigsaw_name": "nova_structures:residence_anchor",
+  "size": 11,
+  "use_expansion_hack": false,
+  "terrain_adaptation": "beard_box"
+}

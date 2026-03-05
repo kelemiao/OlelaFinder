@@ -1,0 +1,132 @@
+{
+  "name": "minecraft:illager_mansion/illager_mansion_main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_main_hall1",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_main_hall2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_main_hall3",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_main_hall4",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_enterance_corner_left",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_enterance_corner_right",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_garden_left",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_garden_right",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_lighting_house",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_lighting_house_left_corner",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_lighting_house_right_corner",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/manor_lighting_tower_roof",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_enterance1",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_base_plate",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_main_degradation"
+      }
+    }
+  ]
+}

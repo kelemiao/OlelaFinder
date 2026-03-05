@@ -1,0 +1,10 @@
+{
+  "feature": "nova_structures:pale_room_patch",
+  "placement": [
+    {
+      "type": "random_offset",
+      "xz_spread": 0,
+      "y_spread": -1
+    }
+  ]
+}

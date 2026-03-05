@@ -1,0 +1,102 @@
+{
+    "parent": "minecraft:nether/find_bastion",
+    "criteria": {
+        "nova_structures:hamlet": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:hamlet"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "nova_structures:piglin_outstation": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:piglin_outstation"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nova_structures:piglin_donjon": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:piglin_donjon"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "nova_structures:piglin_camp": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:piglin_camp"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_piglins",
+            "fallback": "Explore a Piglin Camp, Piglin Outstation, Hamlet and Donjon"
+        },
+        "frame": "challenge",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:piglin_head"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_piglins.title",
+            "fallback": "Hog Hunt"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:hamlet"
+        ],
+        [
+            "nova_structures:piglin_outstation"
+        ],
+        [
+            "nova_structures:piglin_camp"
+        ],
+		[
+            "nova_structures:piglin_donjon"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

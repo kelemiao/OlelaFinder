@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.dnt.multishot",
+    "fallback": "Tri-Shot"
+  },
+  "effects": {
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 2.0
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 10.0,
+            "per_level_above_first": 10.0
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#nova_structures:exclusive_set/structure_bow",
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 2
+}

@@ -1,0 +1,409 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:golden_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:golden_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "enchant_randomly",
+                        "options": "flame",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                          }
+                        ]
+                      },
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": 20
+                      }
+                    ],
+                    "name": "minecraft:bow"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:golden_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:golden_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:golden_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:golden_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "enchant_randomly",
+                        "options": "flame",
+                        "conditions": [
+                          {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                          }
+                        ]
+                      },
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": 20
+                      }
+                    ],
+                    "name": "minecraft:bow"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                        
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:netherite_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                        
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:netherite_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                        
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:netherite_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                        
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:netherite_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                 
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

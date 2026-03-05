@@ -1,0 +1,89 @@
+{
+  "description": {
+    "translate": "enchantment.dnt.wither_coated",
+    "fallback": "Wither Coated"
+  },
+  "exclusive_set": "#nova_structures:exclusive_set/sword_effect",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#minecraft:swords",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:wither",
+          "min_duration": {
+            "type": "minecraft:lookup",
+            "values": [
+              20,
+              10,
+              5
+            ],
+            "fallback": 5
+          },
+          "max_duration": {
+            "type": "minecraft:lookup",
+            "values": [
+              20,
+              10,
+              5
+            ],
+            "fallback": 5
+          },
+          "min_amplifier": {
+            "type": "minecraft:lookup",
+            "values": [
+              0,
+              1,
+              2
+            ],
+            "fallback": 2
+          },
+          "max_amplifier": {
+            "type": "minecraft:lookup",
+            "values": [
+              0,
+              1,
+              2
+            ],
+            "fallback": 2
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "type": "minecraft:wither_skeleton"
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1
+        }
+      }
+    ]
+  }
+}

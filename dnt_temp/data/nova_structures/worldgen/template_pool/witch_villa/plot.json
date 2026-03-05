@@ -1,0 +1,240 @@
+{
+	"name": "nova_structures:witch_villa/plot",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_4",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_5",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_6",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_big_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_big_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_entry_big_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_house_medium_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_house_medium_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_house_medium_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_large_house_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_large_house_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_large_house_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_lobby_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_medium_house_corner_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_medium_house_corner_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_medium_house_corner_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_outhouse_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_outhouse_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_outhouse_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_side_garden_1",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_side_garden_2",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_side_garden_3",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/plot/witch_villa_side_garden_4",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

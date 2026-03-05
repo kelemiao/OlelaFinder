@@ -1,0 +1,20 @@
+{
+	"values": [
+		"minecraft:protection",
+		"minecraft:projectile_protection",
+		"minecraft:respiration",
+		"minecraft:aqua_affinity",
+		"minecraft:thorns",
+		"minecraft:depth_strider",
+		"minecraft:sharpness",
+		"minecraft:smite",
+		"minecraft:looting",
+		"minecraft:unbreaking",
+		"minecraft:luck_of_the_sea",
+		"minecraft:lure",
+		"minecraft:loyalty",
+		"minecraft:impaling",
+		"minecraft:riptide",
+		"minecraft:channeling"
+	]
+}

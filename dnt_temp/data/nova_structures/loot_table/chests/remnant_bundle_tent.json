@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:white_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_gray_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gray_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:black_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brown_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:red_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:orange_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:yellow_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lime_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:green_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cyan_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_blue_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blue_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:purple_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:magenta_bundle"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pink_bundle"
+        }
+      ] 
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 5,
+                "min": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:creeper_drop_music_discs",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "max": 1.0,
+                "min": 0.6
+              }
+            }
+          ],
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

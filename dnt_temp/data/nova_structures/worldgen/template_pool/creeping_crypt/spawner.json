@@ -1,0 +1,105 @@
+{
+	"name": "nova_structures:creeping_crypt/spawner",
+	"fallback": "nova_structures:creeping_crypt/spawner",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_creeper",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_zombie",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_spider",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_spawner_fail",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_vault_spawner_creeper",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_vault_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_vault_spawner_zombie",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_vault_spawner_spider",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_vault",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_spawner/creeping_vault_gravel",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		}
+	]
+}

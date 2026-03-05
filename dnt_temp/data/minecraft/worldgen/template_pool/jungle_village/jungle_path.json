@@ -1,0 +1,114 @@
+{
+	"name": "minecraft:jungle_path",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path1",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path2",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path3",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path4",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path5",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path6",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path7",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path8",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path9",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path10",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path11",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "minecraft:village_jungle/jungle_village_path12",
+				"projection": "terrain_matching",
+				"processors": "minecraft:street_jungle"
+			}
+		}
+	]
+}

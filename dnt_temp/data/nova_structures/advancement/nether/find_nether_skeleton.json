@@ -1,0 +1,235 @@
+{
+    "parent": "minecraft:nether/find_fortress",
+    "criteria": {
+        "nether_port": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_port"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_keep": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_keep"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "fortress": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:fortress"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_waste": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_waste"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_warped": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_warped"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_crimson": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_crimson"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_soul": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_soul"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "skeleton_camp_waste": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:skeleton_camp_waste"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"skeleton_camp_warped": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:skeleton_camp_warped"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"skeleton_camp_soul": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:skeleton_camp_soul"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"skeleton_camp_crimson": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:skeleton_camp_crimson"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_nether_skeleton",
+            "fallback": "Explore all Skeleton Camps, Skeleton Towers, Nether Port, Fortress and Nether keep"
+        },
+        "frame": "challenge",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:skeleton_skull"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_nether_skeleton.title",
+            "fallback": "Skull Collector"
+        }
+    },
+    "requirements": [
+        [
+            "nether_port"
+        ],
+		[
+            "nether_keep"
+        ],
+        [
+            "fortress"
+        ],
+        [
+            "nether_skeleton_tower_waste"
+        ],
+		[
+            "nether_skeleton_tower_crimson"
+        ],
+		[
+            "nether_skeleton_tower_soul"
+        ],
+		[
+            "nether_skeleton_tower_warped"
+        ],
+		[
+            "skeleton_camp_waste"
+        ],
+		[
+            "skeleton_camp_crimson"
+        ],
+		[
+            "skeleton_camp_soul"
+        ],
+		[
+            "skeleton_camp_warped"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

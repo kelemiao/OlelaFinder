@@ -1,0 +1,102 @@
+{
+    "parent": "nova_structures:nether/find_nether_skeleton",
+    "criteria": {
+        "nova_structures:nether_skeleton_tower_waste": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_waste"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nova_structures:nether_skeleton_tower_soul": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_soul"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nova_structures:nether_skeleton_tower_crimson": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_crimson"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nova_structures:nether_skeleton_tower_warped": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_warped"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_skeleton_tower",
+            "fallback": "Visit all Nether Skeleton Towers"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:bone_block"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_skeleton_tower.title",
+            "fallback": "Bone Crusher"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:nether_skeleton_tower_waste"
+        ],
+		[
+            "nova_structures:nether_skeleton_tower_crimson"
+        ],
+		[
+            "nova_structures:nether_skeleton_tower_soul"
+        ],
+		[
+            "nova_structures:nether_skeleton_tower_warped"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,49 @@
+{
+	"display": {
+		"show_toast": true,
+		"icon": {
+			"id": "minecraft:spider_eye",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancement.dnt.adventure.kill_cave_spider_boss.title",
+			"fallback": "Detoxified Lair"
+		},
+		"description": {
+			"translate": "advancement.dnt.adventure.kill_cave_spider_boss",
+			"fallback": "Pest control the Spider Queen Miniboss"
+		}
+	},
+	"parent": "nova_structures:adventure/find_toxic_lair",
+	"criteria": {
+		"kill_cave_spider_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:cave_spider",
+									"nbt": "{Tags:[\"cave_spider_boss\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:cave_spider",
+									"nbt": "{Tags:[\"cave_spider_boss_ominous\"]}"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": false
+}

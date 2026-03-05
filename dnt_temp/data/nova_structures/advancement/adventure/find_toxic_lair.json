@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "toxic_lair": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:toxic_lair"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_toxic_lair",
+            "fallback": "Approach the Toxic Lair"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:slime_block"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_toxic_lair.title",
+            "fallback": "Poison Swamp Enjoyers Rejoice!"
+        }
+    },
+    "requirements": [
+        [
+            "toxic_lair"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

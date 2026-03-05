@@ -1,0 +1,26 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/undead_crypt/normal",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 1,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:spider",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:nether/find_piglins",
+    "criteria": {
+        "nova_structures:piglin_donjon": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:piglin_donjon"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_donjon",
+            "fallback": "Locate a Piglin Donjon"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:chiseled_polished_blackstone"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_donjon.title",
+            "fallback": "Bastion of Bastions"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:piglin_donjon"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

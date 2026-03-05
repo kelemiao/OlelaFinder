@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:lone_citadel/vault",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/hallway_destroy_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/hallway_destroy_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/hallway_destroy_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/hallway_destroy_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/hallway_destroy_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/hallway_destroy_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

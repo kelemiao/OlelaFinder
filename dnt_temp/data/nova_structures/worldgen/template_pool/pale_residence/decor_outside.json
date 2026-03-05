@@ -1,0 +1,51 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:pale_oak",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:pale_residence_flowers",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:pale_moss_big",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:pile_pumpkin",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:pile_hay",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 4
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:town_center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/kitchen_table_1",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/kitchen_table_2",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/kitchen_table_3",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/kitchen_table_4",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		}
+	]
+}

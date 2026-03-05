@@ -1,0 +1,26 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/nether_keep_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "ticks_between_spawn":  4,
+  "spawn_potentials":  [
+    {
+      "data": {
+        "entity":  {
+          "id": "minecraft:blaze",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

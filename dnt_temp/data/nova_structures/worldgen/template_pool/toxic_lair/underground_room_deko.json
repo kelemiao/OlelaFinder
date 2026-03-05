@@ -1,0 +1,366 @@
+{
+	"name": "nova_structures:toxic_lair/underground_room_deko",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_1",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_2",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_3",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_4",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_5",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_6",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_7",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_8",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_9",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_10",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_11",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_12",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_13",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_14",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_15",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_16",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_17",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_18",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_19",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/small_deko_20",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_1",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_2",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_3",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_4",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_5",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_6",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_7",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_8",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_9",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_10",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_11",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_12",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_13",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_14",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_15",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_16",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_17",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_18",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_19",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room_deko/big_deko_20",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "nova_structures:toxic_lair/underground_room_deko"
+}

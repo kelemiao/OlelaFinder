@@ -1,0 +1,90 @@
+{
+  "feature": "nova_structures:stray_wall_planks",
+  "placement": [
+    {
+      "type": "environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "not",
+        "predicate": {
+          "type": "any_of",
+          "predicates": [
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                1,
+                -5,
+                -1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                1,
+                -5,
+                0
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                1,
+                -5,
+                1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                0,
+                -5,
+                -1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                0,
+                -5,
+                1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                -1,
+                -5,
+                -1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                -1,
+                -5,
+                0
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                -1,
+                -5,
+                1
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

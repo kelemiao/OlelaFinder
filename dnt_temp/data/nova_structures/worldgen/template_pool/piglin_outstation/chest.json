@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:piglin_outstation/chest",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/outstation_chest_generic",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/outstation_chest_generic_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/outstation_chest_treasure",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/outstation_chest_treasure_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		}
+	]
+}

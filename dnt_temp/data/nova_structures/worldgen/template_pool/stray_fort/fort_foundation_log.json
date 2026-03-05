@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:stray_fort/fort_foundation_log",
+	"fallback": "nova_structures:stray_fort/fort_foundation_log",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:spruce_log_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

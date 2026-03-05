@@ -1,0 +1,50 @@
+{
+  "elements": [
+    {
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_1_blaze",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_2_blaze",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_3_blaze",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_4_blaze",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_5_blaze",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	}
+  ],
+  "fallback": "minecraft:empty"
+}

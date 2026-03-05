@@ -1,0 +1,15 @@
+{
+	"name": "minecraft:nether_fortress/nether_fortress_tower_roof",	
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/bridge_tower/nether_fortress_bridge_tower_roof",
+        "processors": "minecraft:nether_fortress_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:nether_fortress/nether_fortress_tower_roof"
+}

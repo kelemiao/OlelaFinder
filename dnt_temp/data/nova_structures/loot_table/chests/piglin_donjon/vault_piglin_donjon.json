@@ -1,0 +1,180 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_block"
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots"
+        },
+	    	{
+          "type": "minecraft:item",
+	    	  "weight": 200,
+          "name": "minecraft:netherite_scrap"
+        },
+	    	{
+          "type": "minecraft:item",
+	    	  "weight": 20,
+          "name": "minecraft:netherite_ingot"
+        },
+	    	{
+          "type": "minecraft:item",
+		      "weight": 200,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ancient_debris"
+        },
+		    {
+          "type": "minecraft:item",
+		      "weight": 50,
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        },
+	    	{
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 250
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

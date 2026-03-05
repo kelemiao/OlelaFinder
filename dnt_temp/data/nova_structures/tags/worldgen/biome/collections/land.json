@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    "#nova_structures:collections/swamps",
+    "#nova_structures:collections/snowy_plains",
+    "#nova_structures:collections/snowy_forests",
+    "#nova_structures:collections/savannas",
+    "#nova_structures:collections/plains",
+    "#nova_structures:collections/mushrooms",
+    "#nova_structures:collections/meadows",
+    "#nova_structures:collections/mountains",
+    "#nova_structures:collections/light_jungles",
+    "#nova_structures:collections/icy",
+    "#nova_structures:collections/hills",
+    "#nova_structures:collections/floral",
+    "#nova_structures:collections/deserts",
+    "#nova_structures:collections/cherry_forests",
+    "#nova_structures:collections/caves",
+    "#nova_structures:collections/birch_forests",
+    "#nova_structures:collections/beaches",
+    "#nova_structures:collections/badlands",
+    "#nova_structures:collections/taiga",
+    "#nova_structures:collections/any_forests"
+  ]
+}

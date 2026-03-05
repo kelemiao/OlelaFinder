@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "nova_structures:end_castle",
+              "decoration": "minecraft:target_x",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 9317301,
+                "minecraft:item_name": {
+                  "translate": "item.dnt.filled_map.end_castle",
+                  "fallback": "End Castle Map",
+                  "italic": false
+                }
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ]
+}

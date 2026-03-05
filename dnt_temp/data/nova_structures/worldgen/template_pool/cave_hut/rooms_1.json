@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:cave_hut/rooms",
+	"fallback": "nova_structures:cave_hut/rooms_2",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_door_room1_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_door_room1_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_curve_l",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_curve_r",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_end",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		}
+	]
+}

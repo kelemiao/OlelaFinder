@@ -1,0 +1,112 @@
+{
+  "type": "random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "random_selector",
+        "config": {
+          "default": {
+            "feature": "nova_structures:snow_pile",
+            "placement": [
+              {
+                "type": "environment_scan",
+                "direction_of_search": "down",
+                "max_steps": 10,
+                "target_condition": {
+                  "type": "has_sturdy_face",
+                  "direction": "up",
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": "block_predicate_filter",
+                "predicate": {
+                  "type": "all_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:any_of",
+                      "predicates": [
+                        {
+                          "type": "minecraft:replaceable"
+                        },
+                        {
+                          "type": "minecraft:matching_block_tag",
+                          "tag": "minecraft:wool_carpets"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "not",
+                      "predicate": {
+                        "type": "matching_blocks",
+                        "blocks": [
+                          "water",
+                          "lava"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "features": [
+            {
+              "chance": 0.15,
+              "feature": {
+                "feature": "nova_structures:packed_ice_pile",
+                "placement": [
+                  {
+                    "type": "environment_scan",
+                    "direction_of_search": "down",
+                    "max_steps": 5,
+                    "target_condition": {
+                      "type": "all_of",
+                      "predicates": [
+                        {
+                          "type": "has_sturdy_face",
+                          "direction": "up",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ]
+                        },
+                        {
+                          "type": "not",
+                          "predicate": {
+                            "type": "matching_blocks",
+                            "blocks": [
+                              "snow_block"
+                            ],
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ]
+                          }
+                        },
+                        {
+                          "type": "minecraft:matching_block_tag",
+                          "tag": "nova_structures:support_goes_through"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    },
+    "xz_spread": 3,
+    "y_spread": 2,
+    "tries": 80
+  }
+}

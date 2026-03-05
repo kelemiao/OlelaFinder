@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_door",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.find_pale_residence.title",
+      "fallback": "Residential Evil"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.find_pale_residence",
+      "fallback": "Approach the Pale Residence"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_all_illager_structures",
+  "criteria": {
+    "pale_residence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "nova_structures:pale_residence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pale_residence"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:piglin_outstation/tower",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/vault/vault_outstation_map",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/vault/vault_outstation_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/vault/vault_outstation_vault",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		}
+	]
+}

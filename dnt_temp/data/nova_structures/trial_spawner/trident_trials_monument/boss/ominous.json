@@ -1,0 +1,58 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/trident_trial_boss_key",
+      "weight": 2
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "total_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0.2,
+  "total_mobs_added_per_player": 0.2,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/trident_trial_monument/projectile_trident_trial_monument",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "drop_chances": {
+            "mainhand": 0
+          },
+          "attributes": [
+            {
+              "id": "max_health",
+              "base": 160
+            },
+            {
+              "id": "scale",
+              "base": 2
+            },
+            {
+              "id": "attack_damage",
+              "base": 16
+            }
+          ],
+          "id": "minecraft:elder_guardian",
+          "Health": 160,
+          "Tags": [
+            "elder_guardian_boss",
+            "trial_ominous"
+          ],
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:enchantments": {
+                  "nova_structures:boss_behaviour": 1
+                }
+              },
+              "count": 1,
+              "id": "flint"
+            }
+          },
+          "DeathLootTable": "nova_structures:mob/elder_guardian"
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

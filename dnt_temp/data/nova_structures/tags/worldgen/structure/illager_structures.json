@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#nova_structures:illager_manor",
+	"#nova_structures:illager_hideout",
+	"#nova_structures:badlands_miner_outpost",
+	"minecraft:mansion",
+	"minecraft:swamp_hut",
+	"minecraft:pillager_outpost",
+	"nova_structures:illager_camp",
+	"nova_structures:firewatch_tower_dark_oak",
+	"nova_structures:firewatch_tower_swamp",
+	"nova_structures:tavern_dark_oak",
+	"nova_structures:tavern_swamp",
+	"nova_structures:well_dark_oak",
+	"nova_structures:village_swamp",
+	"nova_structures:witch_villa",
+	"nova_structures:toxic_lair"
+  ]
+}

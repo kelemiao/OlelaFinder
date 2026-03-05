@@ -1,0 +1,261 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:bolt"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:iron_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:bolt"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:iron_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                          "max": 15,
+                          "min": 5
+                        },
+                        "options": "#minecraft:on_mob_spawn_equipment"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "chance": 0.6,
+                        "condition": "minecraft:random_chance"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:bolt"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:diamond_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:bolt"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:diamond_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                          "max": 25,
+                          "min": 10
+                        },
+                        "options": "#minecraft:on_mob_spawn_equipment"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "chance": 0.5,
+                        "condition": "minecraft:random_chance"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:bolt"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:golden_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:bolt"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:golden_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

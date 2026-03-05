@@ -1,0 +1,222 @@
+{
+	"name": "nova_structures:donjon/donjon_coloseum",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/center_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/corner_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/corner_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/corner_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/corner_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_5",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_6",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_7",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_8",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_9",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_10",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_11",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_12",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_13",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_14",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/deco_15",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/middle_deco_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/middle_deco_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/middle_deco_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/coloseum_part/middle_deco_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

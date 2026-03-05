@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": 1,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 1,
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:pale_moss_block",
+        "Properties": {}
+      }
+    },
+    "replaceable": "#minecraft:small_dripleaf_placeable",
+    "surface": "floor",
+    "vegetation_chance": 1,
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "schedule_tick": true,
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:lily_of_the_valley",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:peony",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:azure_bluet",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:oxeye_daisy",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:white_tulip",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:short_grass",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:tall_grass",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pale_oak_sapling",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pale_moss_carpet",
+                  "Properties": {}
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:closed_eyeblossom",
+                  "Properties": {}
+                },
+                "weight": 2
+              }
+            ]
+          }
+        }
+      },
+      "placement": []
+    },
+    "vertical_range": 2,
+    "xz_radius": 1
+  }
+}

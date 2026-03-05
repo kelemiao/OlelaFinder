@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.cure_zillager_pale_residence.title",
+      "fallback": "Villages Pale in Comparison"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.cure_zillager_pale_residence",
+      "fallback": "Cure a Zombie Villager within the Pale Residence"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_pale_residence",
+  "criteria": {
+    "pale_residence": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "location": {
+            "structures": "nova_structures:pale_residence"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pale_residence"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

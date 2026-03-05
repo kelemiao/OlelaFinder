@@ -1,0 +1,222 @@
+{
+	"name": "nova_structures:lone_citadel/vault",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/bookshelf_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/bookshelf_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/bookshelf_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/bookshelf_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/bookshelf_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/bookshelf_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/small_bookshelf_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/small_bookshelf_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/small_bookshelf_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/small_bookshelf_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/small_bookshelf_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/small_bookshelf_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/tall_bookshelf_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/tall_bookshelf_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/tall_bookshelf_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/tall_bookshelf_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/tall_bookshelf_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/tall_bookshelf_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/wide_bookshelf_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/wide_bookshelf_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/wide_bookshelf_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/wide_bookshelf_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/wide_bookshelf_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/bookshelf/wide_bookshelf_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_6_vault",
+	"elements": [
+		{
+			"weight": 11,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/vault/shrine_v6_vault_fail_wall",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/vault/shrine_v6_vault_normal_wall",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/vault/shrine_v6_vault_ominous_wall",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/vault/shrine_v6_vault_ominous_ground",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/vault/shrine_v6_vault_normal_ground",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		}
+	]
+}

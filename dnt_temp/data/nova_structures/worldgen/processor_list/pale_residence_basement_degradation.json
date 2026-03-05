@@ -1,0 +1,192 @@
+{
+  "processors": [
+    {
+      "processor_type": "capped",
+      "delegate": {
+        "processor_type": "rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:pale_oak_wood",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "y",
+				"creaking_heart_state": "dormant",
+				"natural": "true"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:pale_oak_wood",
+                "Properties": {
+                  "axis": "x"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "x",
+				"creaking_heart_state": "dormant",
+				"natural": "true"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:pale_oak_wood",
+                "Properties": {
+                  "axis": "z"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "z",
+				"creaking_heart_state": "dormant",
+				"natural": "true"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 8
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+		    {
+          "input_predicate": {
+            "block": "minecraft:deepslate_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.3
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_bricks",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_tiles",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.3
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_deepslate_tiles",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:cobbled_deepslate",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.3
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "always_true"
+          },
+          "location_predicate": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:pale_oak_wood",
+              "Properties": {
+                "axis": "x"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_log",
+            "Properties": {
+              "axis": "x"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "always_true"
+          },
+          "location_predicate": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:pale_oak_wood",
+              "Properties": {
+                "axis": "z"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_log",
+            "Properties": {
+              "axis": "z"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "always_true"
+          },
+          "location_predicate": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:pale_oak_wood",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

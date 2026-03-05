@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:donjon/donjon_base_plate",
+	"fallback": "minecraft:empty",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:donjon_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:shrine_tower",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"spacing": 250,
+		"separation": 150,
+		"salt": 78409300,
+		"exclusion_zone": {
+			"chunk_count": 15,
+			"other_set": "minecraft:strongholds"
+			},
+		"type": "minecraft:random_spread"
+	}
+}

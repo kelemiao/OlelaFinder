@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3042970,
+    "separation": 20,
+    "spacing": 80,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:witch_villa",
+      "weight": 3
+    },
+	{
+      "structure": "nova_structures:toxic_lair",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:lone_citadel/start",
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/bridge/lone_citadel_bridge_tower_straight_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/bridge/lone_citadel_bridge_tower_straight_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/bridge/lone_citadel_bridge_tower_straight_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

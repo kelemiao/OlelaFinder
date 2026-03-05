@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_jungle",
+    {
+      "id": "#forge:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#c:in_jungle",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:bamboo_forest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:eucalyptus_forest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:old_growth_rainforest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:rainforest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:tropics",
+      "required": false
+    }
+  ]
+}

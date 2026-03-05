@@ -1,0 +1,78 @@
+{
+  "name": "minecraft:illager_mansion/illager_mansion",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 30,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_0",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 30,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_1",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_3",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_4",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_5",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_6",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/bookshelf/manor_bookshelf_7",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "minecraft:empty"
+      }
+    }
+  ]
+}

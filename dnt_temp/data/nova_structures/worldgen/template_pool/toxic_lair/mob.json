@@ -1,0 +1,195 @@
+{
+	"name": "nova_structures:toxic_lair/mob",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_fail",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 88
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_cave_spider",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_zombie",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_zombie_villager",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_witch",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight":2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_bogged",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_cave_spider_oozing",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_zombie_oozing",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_witch_oozing",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_bogged_oozing",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_cave_spider_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_zombie_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_witch_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_bogged_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_cave_spider_oozing_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_zombie_oozing_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_witch_oozing_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_bogged_oozing_weaving",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_slime",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_pufferfish_fail",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/mob/mob_pufferfish",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "nova_structures:toxic_lair/mob"
+}

@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:donjon/donjon_chest",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/chest/donjon_chest_stable",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/chest/donjon_chest_hamlet",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/chest/donjon_chest_hamlet_fail",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/chest/donjon_chest_other",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/chest/donjon_chest_other_fail",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/chest/donjon_chest_stable_fail",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

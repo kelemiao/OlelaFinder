@@ -1,0 +1,67 @@
+{
+  "type": "block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "matching_blocks",
+      "blocks": [
+        "spruce_log",
+        "chiseled_stone_bricks",
+        "cave_air",
+        "air"
+      ],
+      "offset": [
+        0,
+        1,
+        0
+      ]
+    },
+    "direction": "down",
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "air",
+            "Properties": {}
+          }
+        }
+      },
+      {
+        "height": 2,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "chiseled_stone_bricks",
+            "Properties": {}
+          }
+        }
+      },
+      {
+        "height": 32,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

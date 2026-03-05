@@ -1,0 +1,41 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/piglin_donjon/ominous",
+      "weight": 3
+    },
+    {
+      "data": "nova_structures:keys/piglin_donjon_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/piglin_donjon/projectiles_piglin_donjon",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "equipment": {
+          "slot_drop_chances": 0,
+          "loot_table": "nova_structures:equipment/piglin_donjon/normal"
+        },
+        "entity": {
+		  "equipment": {
+            "mainhand": {
+              "count": 1,
+              "id": "stone_sword"
+            }
+		},
+          "id": "minecraft:wither_skeleton",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

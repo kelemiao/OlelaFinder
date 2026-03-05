@@ -1,0 +1,96 @@
+{
+	"name": "nova_structures:nether_port/bridge",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_path_1",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_path_2",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_path_3",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_path_4",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_path_5",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_bridge_path_6",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		}
+	]
+}

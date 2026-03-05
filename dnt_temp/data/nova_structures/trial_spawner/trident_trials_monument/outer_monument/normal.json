@@ -1,0 +1,30 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/trident_trial_monument/small_monument",
+      "weight": 6
+    },
+    {
+      "data": "nova_structures:keys/trident_trial_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 5,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:guardian",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

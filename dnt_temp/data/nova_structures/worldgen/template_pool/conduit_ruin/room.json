@@ -1,0 +1,69 @@
+{
+	"name": "nova_structures:conduit_ruin/room",
+	"fallback": "nova_structures:conduit_ruin/room_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_crossroad_big",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_crossroad_small",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_curve_big",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_curve_small",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_straight_big",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_t_curve_big",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/room/conduit_ruin_room_t_curve_small",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		}
+	]
+}

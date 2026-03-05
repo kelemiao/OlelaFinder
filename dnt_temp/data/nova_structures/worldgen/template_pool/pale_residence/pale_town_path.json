@@ -1,0 +1,123 @@
+{
+	"name": "minecraft:jungle_path",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_cross_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_cross_2",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_cross_3",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_curve_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_curve_2",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_small_cross_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_small_curve_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_small_t_cross",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_straight_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_straight_crooked_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_straight_2",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_t_curve_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:street_pale"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/road/pale_path_meeting_point_1",
+				"projection": "rigid",
+				"processors": "nova_structures:street_pale"
+			}
+		}
+	]
+}

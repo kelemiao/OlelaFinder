@@ -1,0 +1,125 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.dnt.traveler",
+    "fallback": "Traveler"
+  },
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.1
+          },
+          "attribute": "minecraft:step_height",
+          "id": "nova_structures:enchantment.traveler_step",
+          "operation": "add_value"
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "block": {
+                      "blocks": "#nova_structures:cant_step_out"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": false,
+                  "is_sprinting": true,
+                  "is_swimming": false,
+                  "is_flying": false
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.01,
+            "per_level_above_first": 0.005
+          },
+          "attribute": "minecraft:movement_speed",
+          "id": "nova_structures:enchantment.traveler_speed",
+          "operation": "add_value"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": false,
+              "is_sprinting": true,
+              "is_swimming": false,
+              "is_flying": false
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": 1
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "chance": {
+                "type": "minecraft:enchantment_level",
+                "amount": 0.001
+              },
+              "condition": "minecraft:random_chance"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": false,
+                  "is_sprinting": true,
+                  "is_swimming": false,
+                  "is_flying": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#nova_structures:exclusive_set/boots",
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 20
+}

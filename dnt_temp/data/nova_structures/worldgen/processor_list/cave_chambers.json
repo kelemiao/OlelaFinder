@@ -1,0 +1,231 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+		{
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.3
+          },
+          "location_predicate": {
+            "block": "minecraft:air",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:cobblestone"
+          },
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:air",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate"
+          },
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:stone"
+          },
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:water",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:stone"
+          },
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate"
+          },
+          "input_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:water",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate"
+          },
+          "input_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:cobweb",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.8
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.4
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.4
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_bricks"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:mossy_stone_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:stone_bricks"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:mossy_cobblestone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobblestone"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:cobblestone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.4
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate_iron_ore"
+          },
+          "input_predicate": {
+            "block": "minecraft:iron_ore",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate_gold_ore"
+          },
+          "input_predicate": {
+            "block": "minecraft:gold_ore",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate_lapis_ore"
+          },
+          "input_predicate": {
+            "block": "minecraft:lapis_ore",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate_copper_ore"
+          },
+          "input_predicate": {
+            "block": "minecraft:copper_ore",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          }
+        }
+	]
+	}
+	]
+}

@@ -1,0 +1,132 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_6_door_fallback",
+	"elements": [
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_straight_small",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_straight_trial",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_curve_trial",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_t_cross_trial",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_cross_trial",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_encounter_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_encounter_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_encounter_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_encounter_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		}
+	]
+}

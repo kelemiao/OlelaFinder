@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:conduit_ruin/room_fail",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/fallback/conduit_ruin_room_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		}
+	]
+}

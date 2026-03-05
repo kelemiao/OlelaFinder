@@ -1,0 +1,42 @@
+{
+  "name": "minecraft:illager_mansion/illager_mansion_house",
+  "fallback": "minecraft:illager_mansion/illager_mansion_house_lock",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/mansion_house_inbetween_1",
+        "processors": "illager_manor_generic_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	 {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/mansion_house_inbetween_2",
+        "processors": "illager_manor_generic_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/mansion_house_lock3",
+        "processors": "illager_manor_generic_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/mansion_house_lock2",
+        "processors": "illager_manor_generic_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

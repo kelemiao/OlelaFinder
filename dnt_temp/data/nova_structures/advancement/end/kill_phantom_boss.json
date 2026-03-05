@@ -1,0 +1,49 @@
+{
+	"display": {
+		"show_toast": true,
+		"icon": {
+			"id": "minecraft:phantom_membrane",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancement.dnt.end.kill_phantom_boss.title",
+			"fallback": "Afraid of Heights?"
+		},
+		"description": {
+			"translate": "advancement.dnt.end.kill_phantom_boss",
+			"fallback": "Slay the End Castle's Haunting Miniboss"
+		}
+	},
+	"parent": "nova_structures:end/find_end_castle",
+	"criteria": {
+		"kill_phantom_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:phantom",
+									"nbt": "{Tags:[\"phantom_boss\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:phantom",
+									"nbt": "{Tags:[\"phantom_boss_ominous\"]}"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": false
+}

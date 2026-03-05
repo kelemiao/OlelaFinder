@@ -1,0 +1,15 @@
+{
+	"name": "minecraft:illager_mansion/illager_mansion_house_lock",
+	"fallback": "minecraft:illager_mansion/illager_mansion_house_lock",
+	"elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/mansion_house_lock",
+        "processors": "illager_manor_generic_degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+	]
+}

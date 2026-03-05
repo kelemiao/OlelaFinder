@@ -1,0 +1,30 @@
+{
+	"name": "nova_structures:end_castle/start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:end_castle/room_content/house_big_carving",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:end_castle/room_content/house_medium_carving",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 3
+		}
+	]
+}

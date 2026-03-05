@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:hamlet_piglin",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/vault_hamlet",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		}
+	]
+}

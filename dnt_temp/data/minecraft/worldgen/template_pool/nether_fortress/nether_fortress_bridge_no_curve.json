@@ -1,0 +1,33 @@
+{
+	"name": "minecraft:nether_fortress/nether_fortress_bridge",	
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/bridge/nether_fortress_bridge_straight",
+        "processors": "minecraft:nether_fortress_generic_degradation_bridge",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/bridge/nether_fortress_bridge_straight_lantern",
+        "processors": "minecraft:nether_fortress_generic_degradation_bridge",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/bridge/nether_fortress_bridge_straight_spawner",
+        "processors": "minecraft:nether_fortress_generic_degradation_bridge",
+        "projection": "rigid"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:nether_fortress/nether_fortress_lock"
+}

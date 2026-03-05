@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "stray_outlook": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "#nova_structures:stray_outlook"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_stray_outlook",
+            "fallback": "Find a Stray Outlook"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:ice"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_stray_outlook.title",
+            "fallback": "I-ce Some Strays"
+        }
+    },
+    "requirements": [
+        [
+            "stray_outlook"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

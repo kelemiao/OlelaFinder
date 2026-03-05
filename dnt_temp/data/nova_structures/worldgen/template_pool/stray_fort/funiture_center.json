@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:stray_fort/start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/funiture/stray_fort_funiture_center_1",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/funiture/stray_fort_funiture_center_2",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/funiture/stray_fort_funiture_center_3",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/funiture/stray_fort_funiture_center_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		}
+	]
+}

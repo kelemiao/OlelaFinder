@@ -1,0 +1,35 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "loot_illager_hideout_heart_loot": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "nova_structures:chests/illager_hideout_heart_loot"
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.loot_illager_hideout",
+            "fallback": "Relieve an Illager Hideout of its loot"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:deepslate_emerald_ore"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.loot_illager_hideout.title",
+            "fallback": "Hide And Seek"
+        }
+    },
+    "requirements": [
+        [
+            "loot_illager_hideout_heart_loot"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

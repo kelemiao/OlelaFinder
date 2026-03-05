@@ -1,0 +1,84 @@
+{
+	"name": "nova_structures:badlands_miner_outpost",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+						},
+			"weight": 1
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_crossroad_big",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_crossroad_small",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_curve_big",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_curve_small",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_t_curve_big",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_t_curve_small",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_straight_large",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:badlands_miner_outpost/badlands_miner_outpost_path_straight_medium",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:badland_street"
+			}
+		}
+	]
+}

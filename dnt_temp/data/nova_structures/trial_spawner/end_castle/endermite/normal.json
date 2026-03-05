@@ -1,0 +1,30 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/end_castle/endermite",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/end_castle_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 9,
+  "total_mobs": 15,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 1,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:endermite",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

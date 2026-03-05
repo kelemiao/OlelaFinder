@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "nova_structures:illager_manor": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:illager_manor"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_illager_manor",
+            "fallback": "Locate an Illager Manor"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:iron_axe"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_illager_manor.title",
+            "fallback": "Mind Your Manors"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:illager_manor"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

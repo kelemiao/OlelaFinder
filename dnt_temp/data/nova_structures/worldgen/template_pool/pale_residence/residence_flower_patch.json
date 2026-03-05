@@ -1,0 +1,13 @@
+{
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:pale_residence_flowers",
+        "projection": "rigid"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

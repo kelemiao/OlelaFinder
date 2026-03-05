@@ -1,0 +1,249 @@
+{
+	"name": "nova_structures:conduit_ruin/house",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_a_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_a_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_a_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_a_4",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_b_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_b_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_b_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_b_4",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_c_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_c_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_c_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_c_4",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_d_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_d_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_d_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_d_4",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_e_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_e_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_e_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_house_e_4",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_4",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_5",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_6",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/house/conduit_ruin_room_decor_7",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		}
+	]
+}

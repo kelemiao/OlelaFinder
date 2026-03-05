@@ -1,0 +1,16 @@
+{
+  "item.minecraft.lingering_potion.effect.dnt_blindness": "Thuốc Mù Lòa kéo dài",
+  "item.minecraft.lingering_potion.effect.dnt_mining_fatigue": "Thuốc Lời Nguyền Trưởng Lão kéo dài",
+  "item.minecraft.lingering_potion.effect.dnt_levitation": "Thuốc Bay Bổng kéo dài",
+  "item.minecraft.lingering_potion.effect.dnt_nausea": "Thuốc Choáng Váng kéo dài",
+  "item.minecraft.lingering_potion.effect.dnt_wither": "Thuốc Phân Rã kéo dài",
+  "item.minecraft.potion.effect.dnt_levitation": "Thuốc Bay Bổng",
+  "item.minecraft.potion.effect.dnt_wither": "Thuốc Phân Rã",
+  "item.minecraft.splash_potion.effect.dnt_dolphins_grace": "Thuốc Cá Heo có thể ném được",
+  "item.minecraft.splash_potion.effect.dnt_levitation": "Thuốc Bay Bổng có thể ném được",
+  "item.minecraft.splash_potion.effect.dnt_water_breathing": "Thuốc Thở Dưới Nước có thể ném được",
+  "item.minecraft.splash_potion.effect.dnt_wither": "Thuốc Phân Rã có thể ném được",
+  "item.minecraft.tipped_arrow.effect.dnt_levitation": "Mũi Tên Bay Bổng",
+  "item.minecraft.tipped_arrow.effect.dnt_nausea": "Mũi Tên Choáng Váng",
+  "item.minecraft.tipped_arrow.effect.dnt_wither": "Mũi Tên Phân Rã"
+}

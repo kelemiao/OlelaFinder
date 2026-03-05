@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "minecraft:woodland_mansion": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:mansion"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_illager_mansion",
+            "fallback": "Enter a Woodland Mansion"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:dark_oak_door"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_illager_mansion.title",
+            "fallback": "Deep in the Dark Woodland"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:woodland_mansion"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

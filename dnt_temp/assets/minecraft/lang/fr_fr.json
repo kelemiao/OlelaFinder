@@ -1,0 +1,13 @@
+{
+    "item.minecraft.lingering_potion.effect.dnt_blindness": "Potion persistante de cécité",
+    "item.minecraft.tipped_arrow.effect.dnt_levitation": "Flèche de lévitation",
+    "item.minecraft.lingering_potion.effect.dnt_levitation": "Potion persistante de lévitation",
+    "item.minecraft.splash_potion.effect.dnt_levitation": "Potion jetable de lévitation",
+    "item.minecraft.potion.effect.dnt_levitation": "Potion de lévitation",
+    "item.minecraft.tipped_arrow.effect.dnt_nausea": "Flèche de nausée",
+    "item.minecraft.lingering_potion.effect.dnt_nausea": "Potion persistante de nausée",
+    "item.minecraft.tipped_arrow.effect.dnt_wither": "Flèche de décomposition",
+    "item.minecraft.lingering_potion.effect.dnt_wither": "Potion persistante de décomposition",
+    "item.minecraft.splash_potion.effect.dnt_wither": "Potion jetable de décomposition",
+    "item.minecraft.potion.effect.dnt_wither": "Potion de décomposition"
+}

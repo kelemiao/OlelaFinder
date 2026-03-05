@@ -1,0 +1,41 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/toxic_lair/ominous",
+      "weight": 5
+    },
+    {
+      "data": "nova_structures:keys/ominous_toxic_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "total_mobs": 2,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 1,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/toxic_lair/toxic_projectiles",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "equipment": {
+          "slot_drop_chances": 0,
+          "loot_table": "nova_structures:equipment/toxic_lair/ranged"
+        },
+        "entity": {
+          "id": "minecraft:bogged",
+          "Tags": [
+            "trial_ominous"
+          ],
+          "equipment": {
+            "mainhand": {
+              "count": 1,
+              "id": "bow"
+            }
+          }
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

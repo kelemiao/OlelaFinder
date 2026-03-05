@@ -1,0 +1,30 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/creeping_crypt/normal",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/creeper_key",
+      "weight": 3
+    }
+  ],
+  "simultaneous_mobs": 2,
+  "total_mobs": 2.0,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:creeper",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

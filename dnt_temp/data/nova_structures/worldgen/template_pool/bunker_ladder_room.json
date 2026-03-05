@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:bunker_ladder_room",
+	"fallback": "nova_structures:bunker_ladder_fallback",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_ladder_room_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_ladder_room_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_13",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		}
+	]
+}

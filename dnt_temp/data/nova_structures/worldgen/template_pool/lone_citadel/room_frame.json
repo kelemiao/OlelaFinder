@@ -1,0 +1,519 @@
+{
+	"name": "nova_structures:lone_citadel/room_frame",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_statue_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_statue_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_7",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_8",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/big_tower_room_9",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge7",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge8",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/citadel_library_bridge9",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_7",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_8",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_6",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/forge_wall_7",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_1_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_1_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_1_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_2_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_2_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_2_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_3_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_3_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_3_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_4_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_4_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_4_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_5_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_5_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_5_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_6_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_6_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/room_6_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/statue_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/statue_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/statue_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_frame/statue_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

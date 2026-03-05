@@ -1,0 +1,193 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "max": 2,
+        "min": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "leather_helmet"
+        },
+        {
+          "type": "item",
+          "name": "leather_chestplate"
+        },
+        {
+          "type": "item",
+          "name": "leather_leggings"
+        },
+        {
+          "type": "item",
+          "name": "leather_boots"
+        },
+        {
+          "type": "item",
+          "name": "chainmail_helmet"
+        },
+        {
+          "type": "item",
+          "name": "chainmail_chestplate"
+        },
+        {
+          "type": "item",
+          "name": "chainmail_leggings"
+        },
+        {
+          "type": "item",
+          "name": "chainmail_boots"
+        },
+        {
+          "type": "item",
+          "name": "iron_helmet"
+        },
+        {
+          "type": "item",
+          "name": "iron_chestplate"
+        },
+        {
+          "type": "item",
+          "name": "iron_leggings"
+        },
+        {
+          "type": "item",
+          "name": "iron_boots"
+        },
+        {
+          "type": "item",
+          "name": "iron_sword"
+        },
+        {
+          "type": "item",
+          "name": "iron_axe"
+        },
+        {
+          "type": "item",
+          "name": "bow"
+        },
+        {
+          "type": "item",
+          "name": "crossbow"
+        },
+        {
+          "type": "item",
+          "name": "diamond_shovel"
+        }
+      ],
+      "functions": [
+        {
+          "function": "enchant_with_levels",
+          "levels": {
+            "max": 25,
+            "min": 15
+          },
+          "options": "#nova_structures:structure/snowy",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "function": "set_damage",
+          "damage": {
+            "min": 0.5,
+            "max": 0.7,
+            "type": "uniform"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 3,
+        "min": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 5,
+                "min": 3
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "slowness"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "diamond",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "nova_structures:chests/stray_fort/pools/cold"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

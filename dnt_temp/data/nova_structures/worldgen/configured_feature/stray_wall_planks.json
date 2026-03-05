@@ -1,0 +1,63 @@
+{
+  "type": "block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "matching_blocks",
+      "blocks": [
+        "spruce_planks",
+        "polished_andesite",
+        "cave_air",
+        "air"
+      ],
+      "offset": [
+        0,
+        1,
+        0
+      ]
+    },
+    "direction": "down",
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "air",
+            "Properties": {}
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "spruce_planks",
+            "Properties": {}
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "polished_andesite",
+            "Properties": {}
+          }
+        }
+      },
+      {
+        "height": 32,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "spruce_planks",
+            "Properties": {}
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

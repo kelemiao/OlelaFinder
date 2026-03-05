@@ -1,0 +1,29 @@
+{
+  "feature": {
+    "type": "simple_block",
+    "config": {
+      "to_place": {
+        "type": "simple_state_provider",
+        "state": {
+          "Name": "minecraft:pale_moss_block",
+          "Properties": {}
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 2,
+      "target_condition": {
+        "type": "matching_block_tag",
+        "tag": "nova_structures:pale_moss_grows_on"
+      },
+      "allowed_search_condition": {
+        "type": "matching_block_tag",
+        "tag": "nova_structures:moss_spreads_over"
+      }
+    }
+  ]
+}

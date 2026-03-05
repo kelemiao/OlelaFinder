@@ -1,0 +1,24 @@
+{
+	"name": "nova_structures:stray_fort",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_outlook/main/stray_outlook_plate",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_outlook/main/stray_outlook_plate_side",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

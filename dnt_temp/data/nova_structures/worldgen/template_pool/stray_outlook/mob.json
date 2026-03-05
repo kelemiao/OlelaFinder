@@ -1,0 +1,24 @@
+{
+	"name": "nova_structures:stray_fort",
+	"fallback": "nova_structures:stray_outlook/mob",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_outlook/mob/stray_fort_mob_1",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_outlook/mob/stray_fort_mob_2",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

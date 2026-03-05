@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "block_column",
+        "config": {
+          "allowed_placement": {
+            "type": "matching_blocks",
+            "blocks": "air"
+          },
+          "direction": "down",
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                  {
+                    "data": 1,
+                    "weight": 4
+                  },
+                  {
+                    "data": 2,
+                    "weight": 1
+                  }
+                ]
+              },
+              "provider": {
+                "type": "simple_state_provider",
+                "state": {
+                  "Name": "minecraft:pale_oak_leaves",
+                  "Properties": {
+                    "persistent": "true"
+                  }
+                }
+              }
+            }
+          ],
+          "prioritize_tip": true
+        }
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": {
+            "type": "block_column",
+            "config": {
+              "allowed_placement": {
+                "type": "matching_blocks",
+                "blocks": "air",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ]
+              },
+              "direction": "down",
+              "layers": [
+                {
+                  "height": {
+                    "type": "uniform",
+                    "max_inclusive": 2,
+                    "min_inclusive": 1
+                  },
+                  "provider": {
+                    "type": "simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:pale_oak_leaves",
+                      "Properties": {
+                        "persistent": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "max_inclusive": 1,
+                    "min_inclusive": 0
+                  },
+                  "provider": {
+                    "type": "simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:pale_hanging_moss",
+                      "Properties": {
+                        "tip": "false"
+                      }
+                    }
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "type": "simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:pale_hanging_moss",
+                      "Properties": {
+                        "tip": "true"
+                      }
+                    }
+                  }
+                }
+              ],
+              "prioritize_tip": true
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": {
+            "type": "simple_block",
+            "config": {
+              "to_place": {
+                "type": "simple_state_provider",
+                "state": {
+                  "Name": "cobweb",
+                  "Properties": {}
+                }
+              }
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

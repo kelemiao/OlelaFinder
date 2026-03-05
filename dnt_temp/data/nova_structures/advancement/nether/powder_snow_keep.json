@@ -1,0 +1,49 @@
+{
+    "parent": "nova_structures:nether/find_keep",
+    "criteria": {
+        "powder_snow_keep": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "structures": "nova_structures:nether_keep"
+                    }
+                  }
+                }
+              ],
+              "block": "minecraft:powder_snow"
+            }
+        }
+    },
+    "display": {
+        "icon": {
+			"count": 1,
+            "id": "minecraft:powder_snow_bucket"
+        },
+        "title": {
+            "translate": "advancement.dnt.nether.powder_snow_keep.title",
+            "fallback": "Cool Off"
+        },
+        "description": {
+            "translate": "advancement.dnt.nether.powder_snow_keep",
+            "fallback": "Bathe in Powder Snow while in a Nether Keep"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "powder_snow_keep"
+        ]
+    ],
+    "rewards": {
+      "experience": 1000
+    },
+    "sends_telemetry_event": false
+}

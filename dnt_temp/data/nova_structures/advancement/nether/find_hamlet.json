@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:nether/find_piglins",
+    "criteria": {
+        "nova_structures:hamlet": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:hamlet"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_hamlet",
+            "fallback": "Walk into a Hamlet"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:polished_blackstone"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_hamlet.title",
+            "fallback": "The Learned Piglins"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:hamlet"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

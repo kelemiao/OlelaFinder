@@ -1,0 +1,393 @@
+{
+	"name": "nova_structures:donjon/donjon_frame",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_center_foundation",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_center_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_center_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_center_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_center_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_5",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_backdoor",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_bridge",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_bottom_rails",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_foundation_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_foundation_backdoor",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_foundation_bridge",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_foundation_rails",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_5",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_backdoor",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_bridge",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_middle_rails",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_2",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_3",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_4",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_5",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_backdoor",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_bridge",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_top_rails",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_basalt",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_basalt_roof",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_roof",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_bridge",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_bridge_roof",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_rails",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_rails_roof",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_backdoor",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_spike_backdoor_roof",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

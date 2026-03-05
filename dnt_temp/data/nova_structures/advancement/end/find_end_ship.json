@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:end/kill_dragon",
+    "criteria": {
+        "end_ship": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:end_ship"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.end.find_end_ship",
+            "fallback": "Step onto a Lone End Ship"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:shulker_box"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.end.find_end_ship.title",
+            "fallback": "In Transit"
+        }
+    },
+    "requirements": [
+        [
+            "end_ship"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

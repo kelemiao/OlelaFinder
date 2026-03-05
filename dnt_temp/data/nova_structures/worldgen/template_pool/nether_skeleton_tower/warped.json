@@ -1,0 +1,120 @@
+{
+	"name": "nova_structures:warped",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 36,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_plate_1_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_2_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_3_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_4_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_5_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_6_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_7_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_8_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_9_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_10_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_11_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_12_warped",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 19
+    }
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:donjon/donjon_chest",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/vault/vault_donjon",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

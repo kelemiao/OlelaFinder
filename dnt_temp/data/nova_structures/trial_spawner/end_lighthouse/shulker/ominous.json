@@ -1,0 +1,32 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/end_lighthouse/ominous",
+      "weight": 1
+    },
+    {
+      "data": "nova_structures:keys/end_ship_key",
+      "weight": 2
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "total_mobs": 2,
+  "simultaneous_mobs_added_per_player": 0,
+  "total_mobs_added_per_player": 0.5,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/end_castle/projectiles_end_castle",
+  "ticks_between_spawn": 4,
+  "spawn_range": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:shulker",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

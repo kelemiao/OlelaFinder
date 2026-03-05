@@ -1,0 +1,69 @@
+{
+	"name": "nova_structures:stray_fort/start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_cross_s",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_crossroad",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_curve",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_straight_1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_straight_2",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_straight_3",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/road/stray_fort_path_straight_4",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		}
+	]
+}

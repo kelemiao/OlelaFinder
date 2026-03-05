@@ -1,0 +1,546 @@
+{
+	"name": "nova_structures:stray_fort/house",
+	"fallback": "nova_structures:stray_fort/house",
+	"elements": [
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_1_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_2_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_3_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_4_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_5_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_6_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_7_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_8_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_9_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_10_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_11_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_12_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_13_normal",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_1_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_2_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_3_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_4_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_5_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_6_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_7_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_8_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_9_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_10_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_11_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_12_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_13_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_1_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_2_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_3_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_4_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_5_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_6_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_7_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_8_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_9_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_10_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_11_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_12_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_house_13_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_horse_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/fort_village_well",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_1",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_2",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_3",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_4",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_5",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_6",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_7",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_8",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_9",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_10",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_11",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_12",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_13",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_14",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_15",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_event_16",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_farm_1",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_farm_2",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/house/stray_fort_ruin",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:cave_hut/rooms",
+	"fallback": "nova_structures:cave_hut/rooms_2_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_door_room2_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_door_room2_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_hut/room/wood_cave_hut_end",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		}
+	]
+}

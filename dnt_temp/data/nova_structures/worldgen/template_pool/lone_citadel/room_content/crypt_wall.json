@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:lone_citadel/room_content/crypt",
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/crypt_wall_deko_1",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/crypt_wall_deko_2",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/crypt_wall_deko_3",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/crypt_wall_deko_4",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:lone_citadel/room_content/crypt_wall_deko_5",
+        "processors": "nova_structures:citadel_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:wild_ruin_basement",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:wild_ruin/wild_ruin_19b",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

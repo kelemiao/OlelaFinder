@@ -1,0 +1,41 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/nether_keep/ominous",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/nether_keep_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 1,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/nether_keep/projectiles_keep",
+  "ticks_between_spawn":  4,
+  "spawn_potentials":  [
+    {
+      "data": {
+        "equipment": {
+          "slot_drop_chances": 0,
+          "loot_table": "nova_structures:equipment/nether_keep/ranged"
+        },
+        "entity":  {
+          "equipment": {
+            "mainhand": {
+              "count": 1,
+              "id": "bow"
+            }
+		  },
+          "id": "minecraft:skeleton",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

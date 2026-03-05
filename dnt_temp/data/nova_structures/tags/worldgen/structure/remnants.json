@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:remnant_bee_keeper",
+	"nova_structures:remnant_big_remnant",
+	"nova_structures:remnant_big_remnant_2",
+	"nova_structures:remnant_big_remnant_3",
+	"nova_structures:remnant_birch_graveyard",
+	"nova_structures:remnant_bridge_remnant",
+	"nova_structures:remnant_bunny_base",
+	"nova_structures:remnant_classic_village",
+	"nova_structures:remnant_desert_remnant",
+	"nova_structures:remnant_forest_smith",
+	"nova_structures:remnant_frog_ranch",
+	"nova_structures:remnant_graveyard",
+	"nova_structures:remnant_medium_remnant",
+	"nova_structures:remnant_medium_remnant_2",
+	"nova_structures:remnant_miner_hut",
+	"nova_structures:remnant_mud_brick_constructor",
+	"nova_structures:remnant_ominous_shop",
+	"nova_structures:remnant_ruin_farmer",
+	"nova_structures:remnant_ruin_smith",
+	"nova_structures:remnant_sawmill",
+	"nova_structures:remnant_school_remnant",
+	"nova_structures:remnant_taiga_castle",
+	"nova_structures:remnant_woodland_hud",
+	"nova_structures:remnant_zombie_horse_ranch"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+	"name": "nova_structures:soul",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 36,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_plate_1_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_2_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_3_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_4_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_5_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_6_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_7_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_8_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_9_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_10_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_11_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/nether_skeleton_feature_12_soul",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 19
+		}
+	]
+}

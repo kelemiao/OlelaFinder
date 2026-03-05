@@ -1,0 +1,36 @@
+{
+	"display": {
+		"show_toast": true,
+		"icon": {
+			"id": "minecraft:prismarine_shard",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancement.dnt.adventure.kill_guardian_boss.title",
+			"fallback": "Abysmally Ancient"
+		},
+		"description": {
+			"translate": "advancement.dnt.adventure.kill_guardian_boss",
+			"fallback": "Defeat the Ancient Guardian Miniboss"
+		}
+	},
+	"parent": "nova_structures:adventure/find_trident_trial_monument",
+	"criteria": {
+		"kill__guardian_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:elder_guardian",
+							"nbt": "{Tags:[\"elder_guardian_boss\"]}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"sends_telemetry_event": false
+}

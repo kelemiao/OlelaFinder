@@ -1,0 +1,78 @@
+{
+	"name": "nova_structures:hamlet_conect",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_1",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_2",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_3",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_4",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_corner_1",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_corner_2",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_corner_3",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_conect_corner_4",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		}
+	]
+}

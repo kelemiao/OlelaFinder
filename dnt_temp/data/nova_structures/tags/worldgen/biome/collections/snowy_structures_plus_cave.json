@@ -1,0 +1,155 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_taiga",
+	"minecraft:snowy_plains",
+    {
+      "id": "biomesoplenty:snowy_maple_woods",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:snowy_coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:muskeg",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rainbow_hills",
+      "required": false
+    },
+    {
+      "id": "byg:frosted_taiga",
+      "required": false
+    },
+    {
+      "id": "byg:frosted_coniferous_forest",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:snowy_boreal_forest",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:snowy_redwoods",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_fen",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_thermal_taiga",
+      "required": false
+    },
+    {
+      "id": "wythers:deep_snowy_taiga",
+      "required": false
+    },
+	{
+      "id": "terralith:alpine_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:cold_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_badlands",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_shield",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:snowy_fir_clearing",
+      "required": false
+    },
+    {
+      "id": "#c:snowy_plains",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_bog",
+      "required": false
+    },
+    {
+      "id": "wythers:snowy_tundra",
+      "required": false
+    },
+    {
+      "id": "wythers:ice_cap",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:cold_forest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:cold_deciduous_forest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:frozen_forest",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:frozen_tundra",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:icy_desert",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:icy_heights",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:spires",
+      "required": false
+    },
+	{
+      "id": "clifftree:tundra",
+      "required": false
+    },
+	{
+      "id": "clifftree:glacier_valley",
+      "required": false
+    },
+	{
+      "id": "clifftree:snowy_old_growth_taiga",
+      "required": false
+    },
+	{
+      "id": "clifftree:frozen_caves",
+      "required": false
+    },
+	{
+      "id": "#forge:is_underground",
+      "required": false
+    },
+    {
+      "id": "#c:underground",
+      "required": false
+    },
+    {
+      "id": "#c:caves",
+      "required": false
+    },
+	{
+      "id": "terralith:cave/ice_caves",
+      "required": false
+    },
+	{
+      "id": "terralith:cave/frostfire_caves",
+      "required": false
+    },
+	{
+      "id": "terralith:cave/deep_caves",
+      "required": false
+    }
+  ]
+}

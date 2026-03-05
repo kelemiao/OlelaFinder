@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:trial_dungeon/rooms",
+	"fallback": "nova_structures:trial_dungeon/rooms_2_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/room/trial_dungeon_door2_1",
+				"projection": "rigid",
+				"processors": "nova_structures:trial_dungeonr"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/room/trial_dungeon_door2_2",
+				"projection": "rigid",
+				"processors": "nova_structures:trial_dungeonr"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/room/trial_dungeon_end",
+				"projection": "rigid",
+				"processors": "nova_structures:trial_dungeonr"
+			}
+		}
+	]
+}

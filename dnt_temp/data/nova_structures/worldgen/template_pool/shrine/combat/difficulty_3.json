@@ -1,0 +1,96 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/elevator/shrine_elevator_start_3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/elevator/shrine_elevator_part1_3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/elevator/shrine_elevator_part2_3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/elevator/shrine_elevator_end_3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/room/shrine_goal_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_adabt"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/room/room_frame_1_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_adabt"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/room/room_frame_2_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_adabt"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/room/room_frame_3_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_adabt"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/hallway/shrine_hallway_1_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_adabt"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/hallway/shrine_hallway_2_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_adabt"
+			}
+		}
+	]
+}

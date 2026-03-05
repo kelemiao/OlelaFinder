@@ -1,0 +1,441 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:creaking_heart",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.3
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_log",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_brick_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_brick_stairs",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_tiles",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_tile_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:deepslate_tile_stairs",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:wheat",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_leaves",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:wheat",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:wheat",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_sapling",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:wheat",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:wheat",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:short_grass",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:beetroots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_leaves",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:beetroots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:beetroots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_sapling",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:beetroots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:beetroots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:short_grass",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:potatoes",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_leaves",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:potatoes",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:potatoes",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_sapling",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:potatoes",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:potatoes",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:short_grass",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:carrots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_leaves",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:carrots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:carrots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:pale_oak_sapling",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:carrots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:carrots",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:short_grass",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

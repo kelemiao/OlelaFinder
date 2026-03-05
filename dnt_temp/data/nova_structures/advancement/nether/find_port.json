@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:nether/find_nether_skeleton",
+    "criteria": {
+        "nova_structures:nether_port": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_port"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_port",
+            "fallback": "Aproach a Nether Port"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:red_nether_bricks"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_port.title",
+            "fallback": "Port o' Magma"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:nether_port"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

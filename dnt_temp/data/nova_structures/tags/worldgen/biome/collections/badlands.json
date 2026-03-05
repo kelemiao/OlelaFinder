@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:badlands",
+	"minecraft:wooded_badlands",
+    {
+      "id": "terralith:savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "byg:atacama_desert",
+      "required": false
+    },
+    {
+      "id": "#forge:is_mesa",
+      "required": false
+    },
+    {
+      "id": "#c:in_mesa",
+      "required": false
+    },
+    {
+      "id": "#forge:is_badlands",
+      "required": false
+    },
+    {
+      "id": "#c:badlands",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:arid_mountains",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:outback",
+      "required": false
+    }
+  ]
+}

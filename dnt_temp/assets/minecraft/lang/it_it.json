@@ -1,0 +1,16 @@
+{
+    "item.minecraft.lingering_potion.effect.dnt_blindness": "Pozione persistente di cecità",
+    "item.minecraft.lingering_potion.effect.dnt_mining_fatigue": "Pozione persistente di affaticamento",
+    "item.minecraft.lingering_potion.effect.dnt_levitation": "Pozione persistente di levitazione",
+    "item.minecraft.lingering_potion.effect.dnt_nausea": "Pozione persistente di nausea",
+    "item.minecraft.lingering_potion.effect.dnt_wither": "Pozione persistente di avvizzimento",
+    "item.minecraft.potion.effect.dnt_levitation": "Pozione di levitazione",
+    "item.minecraft.potion.effect.dnt_wither": "Pozione di avvizzimento",
+    "item.minecraft.splash_potion.effect.dnt_dolphins_grace": "Pozione da lancio di nuoto",
+    "item.minecraft.splash_potion.effect.dnt_levitation": "Pozione da lancio di levitazione",
+    "item.minecraft.splash_potion.effect.dnt_water_breathing": "Pozione da lancio di respir. acquatica",
+    "item.minecraft.splash_potion.effect.dnt_wither": "Pozione da lancio di avvizzimento",
+    "item.minecraft.tipped_arrow.effect.dnt_levitation": "Freccia di levitazione",
+    "item.minecraft.tipped_arrow.effect.dnt_nausea": "Freccia di nausea",
+    "item.minecraft.tipped_arrow.effect.dnt_wither": "Freccia di avvizzimento"
+}

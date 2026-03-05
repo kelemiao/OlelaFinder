@@ -1,0 +1,69 @@
+{
+  "name": "minecraft:illager_mansion/illager_mansion_entry",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_1",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_3",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_4",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_5",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_6",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/manor_fixed/mansion_garden_7",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    }
+  ]
+}

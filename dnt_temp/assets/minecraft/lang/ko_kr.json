@@ -1,0 +1,16 @@
+{
+    "item.minecraft.lingering_potion.effect.dnt_blindness": "잔류형 실명의 물약",
+    "item.minecraft.lingering_potion.effect.dnt_mining_fatigue": "잔류형 원로의 저주의 물약",
+    "item.minecraft.lingering_potion.effect.dnt_levitation": "잔류형 공중 부양의 물약",
+    "item.minecraft.lingering_potion.effect.dnt_nausea": "잔류형 어지러움의 물약",
+    "item.minecraft.lingering_potion.effect.dnt_wither": "잔류형 부식의 화살",
+    "item.minecraft.potion.effect.dnt_levitation": "공중 부양의 물약",
+    "item.minecraft.potion.effect.dnt_wither": "부식의 물약",
+    "item.minecraft.splash_potion.effect.dnt_dolphins_grace": "투척용 돌고래의 물약",
+    "item.minecraft.splash_potion.effect.dnt_levitation": "투척용 공중 부양의 물약",
+    "item.minecraft.splash_potion.effect.dnt_water_breathing": "투척용 수중 호흡의 물약",
+    "item.minecraft.splash_potion.effect.dnt_wither": "투척용 부식의 물약",
+    "item.minecraft.tipped_arrow.effect.dnt_levitation": "공중 부양의 화살",
+    "item.minecraft.tipped_arrow.effect.dnt_nausea": "어지러움의 화살",
+    "item.minecraft.tipped_arrow.effect.dnt_wither": "부식의 화살"
+}

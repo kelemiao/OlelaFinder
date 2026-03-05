@@ -1,0 +1,50 @@
+{
+  "elements": [
+    {
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_1_forrest",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_2_forrest",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_3_forrest",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_4_forrest",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	},
+	{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:single_pool_element",
+			"location": "nova_structures:shrine/shrine_combat/room_content/shrine_room_5_forrest",
+			"projection": "rigid",
+			"processors": "minecraft:empty"
+		}
+	}
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "nova_structures:toxic_lair/ruins_hut",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/surface_hut/toxic_witch_hut_1",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/surface_hut/toxic_witch_hut_2",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/surface_hut/toxic_witch_hut_3",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 1
+	}
+  ],
+  "fallback": "minecraft:empty"
+}

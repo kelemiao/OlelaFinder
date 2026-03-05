@@ -1,0 +1,627 @@
+{
+	"name": "nova_structures:cave_chamber/chamber",
+	"fallback": "nova_structures:cave_chamber/part_2",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_mushroom_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_hallway_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_golden_apple_altar",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_shrine_dungeon",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_stronghold_dungeon",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancien_glaced_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_gateway_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_cherry_tree",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_iron_deposit_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_stone_camp",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_pathway_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_solitary_tree",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_pillar_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_lush_patch",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_lush_oasis",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_lapis_square",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_nether_portal",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_crop_farm_4",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_crop_farm_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_crop_farm_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_crop_farm_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_copper_deposit",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_cave_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_6",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_5",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_4",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_hut_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_hut_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_hut_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_greenhouse",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_desert_oasis",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_mooshroom_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_cherry_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_mooshroom",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_chapel",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_pale_shrine",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ocean_dungeon",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_well",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_music_room",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_copper_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_fishing_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_cave_farm_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_farm_house",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dripstone_camp_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_jungle_dungeon",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_grave",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dirt_camp",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_throne_room",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_stone_oasis",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_beetroot_grove",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/spawner_labyrinth",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_deepslate_labyrinth_small",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_gold_ore_deposit",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_carrot_cave",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_campfire",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dripstone_camp_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dripstone_camp_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_sheep_camp",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_lake_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_abandoned_mineshaft",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_city_dungeon",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_trial_chamber_dungeon",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_mushroom_lake",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dripstone_camp",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		}
+	]
+}

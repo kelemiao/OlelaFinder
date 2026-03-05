@@ -1,0 +1,126 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+		{
+          "output_state": {
+            "Name": "minecraft:dripstone_block"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:dripstone_block",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:deepslate"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:gravel"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:gravel",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:lava"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:tuff"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:tuff",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:stone"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:granite"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:granite",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:diorite"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:diorite",
+            "predicate_type": "minecraft:block_match"
+          }
+        },
+		{
+          "output_state": {
+            "Name": "minecraft:andesite"
+          },
+          "input_predicate": {
+            "block": "minecraft:waxed_copper_grate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:andesite",
+            "predicate_type": "minecraft:block_match"
+          }
+        }
+	]
+	}
+	]
+}

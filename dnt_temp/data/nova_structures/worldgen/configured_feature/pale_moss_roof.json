@@ -1,0 +1,88 @@
+{
+  "type": "random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "random_selector",
+        "config": {
+          "default": "nova_structures:pale_moss_placer",
+          "features": [
+            {
+              "chance": 0.2,
+              "feature": "nova_structures:pale_moss_placer_floor"
+            },
+            {
+              "chance": 0.3,
+              "feature": "nova_structures:pale_moss_vegetation"
+            },
+            {
+              "chance": 0.3,
+              "feature": "nova_structures:pale_moss_foliage"
+            },
+            {
+              "chance": 0.1,
+              "feature": {
+                "feature": {
+                  "type": "minecraft:simple_block",
+                  "config": {
+                    "to_place": {
+                      "type": "simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:pale_oak_leaves",
+                        "Properties": {
+                          "persistent": "true"
+                        }
+                      }
+                    }
+                  }
+                },
+                "placement": [
+                  {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                      "type": "all_of",
+                      "predicates": [
+                        {
+                          "type": "matching_blocks",
+                          "blocks": [
+                            "minecraft:air",
+                            "minecraft:orange_carpet",
+                            "minecraft:white_carpet",
+                            "minecraft:light_gray_carpet",
+                            "minecraft:gray_carpet",
+                            "minecraft:black_carpet"
+                          ]
+                        },
+                        {
+                          "type": "has_sturdy_face",
+                          "direction": "up",
+                          "offset": [
+                            0,
+                            -1,
+                            0
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "chance": 0.1,
+              "feature": "nova_structures:pale_hanging_moss"
+            },
+            {
+              "chance": 0.3,
+              "feature": "nova_structures:pale_hanging_leaves"
+            }
+          ]
+        }
+      },
+      "placement": []
+    },
+    "xz_spread": 4,
+    "y_spread": 4,
+    "tries": 256
+  }
+}

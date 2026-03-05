@@ -1,0 +1,150 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_6_room_fallback",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size1_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size1_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size1_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size1_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size2_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size2_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size2_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size2_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size3_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size3_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size3_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size3_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size4_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size4_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size4_t_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/room/shrine_6_room_size4_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		}
+	]
+}

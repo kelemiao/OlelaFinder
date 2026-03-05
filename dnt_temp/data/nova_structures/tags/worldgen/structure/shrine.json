@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:shrine_combat_tier_1",
+	"nova_structures:shrine_combat_tier_2",
+	"nova_structures:shrine_combat_tier_3",
+	"nova_structures:shrine_combat_tier_4",
+	"nova_structures:shrine_combat_tier_5"
+  ]
+}

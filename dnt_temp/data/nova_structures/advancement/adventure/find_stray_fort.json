@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_stray_outlook",
+    "criteria": {
+        "stray_fort": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "#nova_structures:stray_fort"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_stray_fort",
+            "fallback": "...We Will Come to Winter (Find a Stray Fort)"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:packed_ice"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_stray_fort.title",
+            "fallback": "If Winter Doesn't Come..."
+        }
+    },
+    "requirements": [
+        [
+            "stray_fort"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

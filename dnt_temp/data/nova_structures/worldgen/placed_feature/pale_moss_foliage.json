@@ -1,0 +1,73 @@
+{
+  "feature": {
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "simple_state_provider",
+        "state": {
+          "Name": "minecraft:pale_oak_leaves",
+          "Properties": {
+            "persistent": "true"
+          }
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 5,
+      "target_condition": {
+        "type": "all_of",
+        "predicates": [
+          {
+            "type": "has_sturdy_face",
+            "direction": "up",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "not",
+            "predicate": {
+              "type": "matching_blocks",
+              "blocks": [
+                "minecraft:light_gray_stained_glass"
+              ],
+              "offset": [
+                0,
+                -1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "matching_blocks",
+            "blocks": [
+              "minecraft:air",
+              "minecraft:orange_carpet",
+              "minecraft:white_carpet",
+              "minecraft:light_gray_carpet",
+              "minecraft:gray_carpet",
+              "minecraft:black_carpet"
+            ]
+          }
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:orange_carpet",
+          "minecraft:white_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:black_carpet"
+        ]
+      }
+    }
+  ]
+}

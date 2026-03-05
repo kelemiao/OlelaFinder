@@ -1,0 +1,240 @@
+{
+	"name": "nova_structures:trial_dungeon/start",
+	"fallback": "nova_structures:trial_dungeon/parts",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_4",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_5",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_6",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_7",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_8",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_9",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_10",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_11",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_12",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_left_13",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_4",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_5",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_6",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_7",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_8",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_9",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_10",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_11",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_12",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/deco/trial_dungeon_deco_right_13",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		}
+	]
+}

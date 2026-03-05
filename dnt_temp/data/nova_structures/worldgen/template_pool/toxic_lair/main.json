@@ -1,0 +1,142 @@
+{
+	"name": "nova_structures:toxic_lair/main",
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_boss_room",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_boss_room_statue",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_garden",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_slime_lair",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_spider_door",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_staircase_big",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_toxic_lair_backdoor",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/main/main_toxic_lair_staircase_1",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/spawner/spawner_boss_slime",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/spawner/spawner_boss_slime",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/spawner/spawner_spider_boss",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/spawner/spawner_spider_sub",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/spawner/spawner_cave_spider_sub",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/spawner/spawner_bogged_sub",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/vault/boss_vault",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "nova_structures:toxic_lair/main"
+}

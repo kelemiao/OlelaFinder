@@ -1,0 +1,22 @@
+{
+  "values": [
+    "nova_structures:conductivity_curse",
+    "nova_structures:antidote",
+    "nova_structures:ghasted",
+    "nova_structures:gravity",
+    "nova_structures:illagers_bane",
+    "nova_structures:traveler",
+    "nova_structures:multishot",
+    "nova_structures:outreach",
+    "nova_structures:photosynthesis",
+    "nova_structures:piercing",
+    "nova_structures:power",
+    "nova_structures:wax_wings",
+    "nova_structures:wither_coated",
+    "nova_structures:aerials_bane",
+    "nova_structures:boss_behaviour",
+    "nova_structures:shulker_boss",
+    "nova_structures:shulker_miniboss",
+    "nova_structures:spiteful"
+  ]
+}

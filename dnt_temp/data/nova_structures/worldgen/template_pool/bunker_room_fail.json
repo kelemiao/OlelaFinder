@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:bunker_room_fail",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_room_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		}
+	]
+}

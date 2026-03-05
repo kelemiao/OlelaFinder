@@ -1,0 +1,87 @@
+{
+	"name": "nova_structures:donjon/donjon_mob",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_empty",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 20
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_piglin_sword",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_piglin_crossbow",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_piglin_brute",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_hooglin",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_hooglin_fail",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_skeleton",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_skeleton_wither",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/mob/donjon_mob_skeleton_empty",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

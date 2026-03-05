@@ -1,0 +1,294 @@
+{
+	"name": "nova_structures:jungle_ruin",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_axolotl",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_axolotl_2",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house1",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house2",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house3",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house4",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house5",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house6",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house7",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house8",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_butcher",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_fletcher",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_library",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_mason",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_shepherd",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_smith",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_house_smith2",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_lamp1",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_lamp2",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_lamp3",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_spring",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_villayan",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_villayan_big",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_temple1",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_temple2",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_temple3",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_path1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_path2",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_path3",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_path4",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_temple_main_bottom",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		}
+	]
+}

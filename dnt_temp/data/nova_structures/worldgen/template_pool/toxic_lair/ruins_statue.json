@@ -1,0 +1,78 @@
+{
+	"name": "nova_structures:toxic_lair/ruins",
+  "elements": [
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_blaze",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_creeper",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_enderman",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_skeleton",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_slime",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_warrior",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_witch",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/statue/toxic_statue_burried_zombie",
+        "processors": "nova_structures:toxic_statue_degradation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

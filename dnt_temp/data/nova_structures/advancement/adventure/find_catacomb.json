@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_stray_outlook",
+    "criteria": {
+        "catacomb": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "#nova_structures:catacomb"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_catacomb",
+            "fallback": "You Strayed Too Deep and found a Catacomb"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:chiseled_deepslate"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_catacomb.title",
+            "fallback": "Sub Y 0"
+        }
+    },
+    "requirements": [
+        [
+            "catacomb"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

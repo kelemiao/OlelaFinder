@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "detect_dnt_boss_enchant_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#nova_structures:boss_enchantments"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "detect_dnt_boss_enchant_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "#nova_structures:boss_enchantments"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "detect_dnt_boss_enchant_item",
+      "detect_dnt_boss_enchant_book"
+    ]
+  ],
+  "rewards": {
+    "function": "nova_structures:dnt_boss_enchant_remover"
+  }
+}

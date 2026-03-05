@@ -1,0 +1,157 @@
+{
+	"name": "nova_structures:cave_chamber/cave",
+	"fallback": "nova_structures:cave_chamber/cave_fallback",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_1",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_2",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_3",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_4",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_5",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_6",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/cave/cave_7",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_hallway_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancien_glaced_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_gateway_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_iron_deposit_hut",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_pillar_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_nether_portal",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ruins",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_well",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_throne_room",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_archy"
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "nova_structures:hamlet",
+    "nova_structures:nether_keep",
+    "nova_structures:nether_port",
+    "nova_structures:nether_skeleton_tower_crimson",
+    "nova_structures:nether_skeleton_tower_soul",
+    "nova_structures:nether_skeleton_tower_warped",
+    "nova_structures:nether_skeleton_tower_waste",
+    "nova_structures:piglin_camp",
+    "nova_structures:piglin_donjon",
+    "nova_structures:piglin_outstation",
+    "nova_structures:skeleton_camp_crimson",
+    "nova_structures:skeleton_camp_soul",
+    "nova_structures:skeleton_camp_warped",
+    "nova_structures:skeleton_camp_waste"
+  ]
+}

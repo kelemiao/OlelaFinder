@@ -1,0 +1,28 @@
+{
+	"name": "nova_structures:stray_fort/frost",
+	"fallback": "nova_structures:stray_fort/frost",
+	"elements": [
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:stray_light_frost",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:stray_heavy_frost",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 1
+    }
+	]
+}

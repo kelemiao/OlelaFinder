@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:nether_skeleton_tower_crimson",
+	"nova_structures:nether_skeleton_tower_soul",
+	"nova_structures:nether_skeleton_tower_warped",
+	"nova_structures:nether_skeleton_tower_waste"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:pale_residence",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:woodland_mansions",
+      "chunk_count": 10
+    },
+		"spacing": 60,
+		"separation": 15,
+		"salt": 560486059,
+		"type": "minecraft:random_spread"
+	}
+}

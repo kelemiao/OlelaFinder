@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:toxic_lair/foundation_stone_bricks",
+	"fallback": "nova_structures:toxic_lair/foundation_stone_bricks",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:stone_bricks_toxic_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

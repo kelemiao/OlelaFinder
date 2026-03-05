@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:well",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:remnant/taiga_castle",
+				"projection": "rigid",
+				"processors": "nova_structures:remnantification"
+			}
+		}
+	]
+}

@@ -1,0 +1,165 @@
+{
+	"name": "nova_structures:ruin",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 15
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_5",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_6",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_7",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_8",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_9",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_10",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_11",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_12",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_13",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_house_14",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_lantern1",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_lantern2",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/house/desert_ruins_lantern3",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		}
+	]
+}

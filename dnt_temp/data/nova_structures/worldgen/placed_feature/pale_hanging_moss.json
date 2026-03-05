@@ -1,0 +1,60 @@
+{
+  "feature": "nova_structures:pale_hanging_moss",
+  "placement": [
+    {
+      "type": "environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 5,
+      "target_condition": {
+        "type": "all_of",
+        "predicates": [
+          {
+            "type": "has_sturdy_face",
+            "direction": "down",
+            "offset": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "not",
+            "predicate": {
+              "type": "matching_blocks",
+              "blocks": [
+                "minecraft:creaking_heart"
+              ],
+              "offset": [
+                0,
+                1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "matching_blocks",
+            "blocks": [
+              "minecraft:air",
+              "minecraft:orange_carpet",
+              "minecraft:white_carpet",
+              "minecraft:light_gray_carpet",
+              "minecraft:gray_carpet",
+              "minecraft:black_carpet"
+            ]
+          }
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:orange_carpet",
+          "minecraft:white_carpet",
+          "minecraft:light_gray_carpet",
+          "minecraft:gray_carpet",
+          "minecraft:black_carpet"
+        ]
+      }
+    }
+  ]
+}

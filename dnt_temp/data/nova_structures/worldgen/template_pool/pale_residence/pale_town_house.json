@@ -1,0 +1,384 @@
+{
+	"name": "minecraft:jungle_house",
+	"fallback": "nova_structures:pale_residence/pale_town_house",
+	"elements": [
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_5",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_6",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_7",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_house_8",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_church",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_armour_smith",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_tool_smith",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_weapon_smith",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_butcher",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_fisher",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_fletcher",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_leather_worker",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_library",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_mason",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_sheeper",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_windmill",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco0",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_3",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_4",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_5",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_6",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_7",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_8",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_deco_9",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_farm_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_farm_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_farm_3",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_farm_4",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/house/pale_farm_5",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_pen_1",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_pen_2",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_pen_3",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_graveyard",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_grave",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/village/deco/pale_grave_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:house_pale_degradation"
+			}
+		}
+	]
+}

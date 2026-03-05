@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "nova_structures:boss_behaviour": 0,
+      "nova_structures:shulker_boss": 0,
+      "nova_structures:shulker_miniboss": 0
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "dnt_boss_enchant_disable": true
+    }
+  }
+]

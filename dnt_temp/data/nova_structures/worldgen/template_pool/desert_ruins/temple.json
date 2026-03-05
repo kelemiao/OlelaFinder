@@ -1,0 +1,105 @@
+{
+	"name": "nova_structures:temple",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_exit_foundation",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_main_start",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_main",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_main_lower",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_exit",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_exit_corner",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/temple/desert_ruins_temple_exit_corner_foundation",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_ruins_degradation"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_husk",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_creeper",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_zillager",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		}
+	]
+}

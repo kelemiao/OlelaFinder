@@ -1,0 +1,24 @@
+{
+	"name": "minecraft:nether_fortress/nether_fortress_bridge_conector",	
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/bridge/nether_fortress_bridge_breaker",
+        "processors": "minecraft:nether_fortress_generic_degradation_bridge",
+        "projection": "rigid"
+      },
+      "weight": 7
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:nether_fortress/bridge/nether_fortress_bridge_breaker_no_curve",
+        "processors": "minecraft:nether_fortress_generic_degradation_bridge",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:nether_fortress/nether_fortress_lock"
+}

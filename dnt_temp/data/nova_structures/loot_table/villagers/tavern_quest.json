@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/jungle_ruin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/undead_crypt"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/stray_fort"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/catacomb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/creeping_crypt"
+        },
+    	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/desert_ruin"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/ancient_city"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/illager_hideout"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/badlands_miner_outpost"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/witch_villa"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/illager_manor"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/trident_trial_monument"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/lone_citadel"
+        },
+	{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/toxic_lair"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/pale_residence"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

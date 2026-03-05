@@ -1,0 +1,16 @@
+{
+  "item.minecraft.lingering_potion.effect.dnt_blindness": "滞留型失明药水",
+  "item.minecraft.lingering_potion.effect.dnt_mining_fatigue": "滞留型挖掘疲劳药水",
+  "item.minecraft.lingering_potion.effect.dnt_levitation": "滞留型漂浮药水",
+  "item.minecraft.lingering_potion.effect.dnt_nausea": "滞留型眩晕药水",
+  "item.minecraft.lingering_potion.effect.dnt_wither": "滞留型衰变药水",
+  "item.minecraft.potion.effect.dnt_levitation": "漂浮药水",
+  "item.minecraft.potion.effect.dnt_wither": "衰变药水",
+  "item.minecraft.splash_potion.effect.dnt_dolphins_grace": "喷溅型海豚恩惠药水",
+  "item.minecraft.splash_potion.effect.dnt_levitation": "喷溅型漂浮药水",
+  "item.minecraft.splash_potion.effect.dnt_water_breathing": "喷溅型水肺药水",
+  "item.minecraft.splash_potion.effect.dnt_wither": "喷溅型衰变药水",
+  "item.minecraft.tipped_arrow.effect.dnt_levitation": "漂浮之箭",
+  "item.minecraft.tipped_arrow.effect.dnt_nausea": "眩晕之箭",
+  "item.minecraft.tipped_arrow.effect.dnt_wither": "衰变之箭"
+}

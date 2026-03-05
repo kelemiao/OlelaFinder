@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "nova_structures:witch_villa": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:witch_villa"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_witch_villa",
+            "fallback": "Find a Witch Villa"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:cauldron"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_witch_villa.title",
+            "fallback": "Trouble is Brewing"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:witch_villa"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

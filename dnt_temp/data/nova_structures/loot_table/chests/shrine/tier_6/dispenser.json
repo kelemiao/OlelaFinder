@@ -1,0 +1,254 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 12,
+                "min": 4
+              }
+            }
+          ],
+          "name": "minecraft:arrow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 8,
+                "min": 4
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "weakness"
+            }
+          ],
+          "name": "minecraft:tipped_arrow",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "value": "nova_structures:special_items/nausea_arrow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 8,
+                "min": 4
+              }
+            }
+          ],
+          "name": "minecraft:spectral_arrow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "slowness"
+            }
+          ],
+          "name": "minecraft:lingering_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "poison"
+            }
+          ],
+          "name": "minecraft:lingering_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "swiftness"
+            }
+          ],
+          "name": "minecraft:lingering_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "strength"
+            }
+          ],
+          "name": "minecraft:lingering_potion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 16,
+                "min": 10
+              }
+            }
+          ],
+          "name": "minecraft:fire_charge",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 10,
+                "min": 6
+              }
+            }
+          ],
+          "name": "minecraft:wind_charge"
+        },
+        {
+          "type": "loot_table",
+          "value": {
+            "pools": [
+              {
+                "entries": [
+                  {
+                    "type": "item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_fireworks",
+                        "explosions": {
+                          "values": [
+                            {
+                              "shape": "small_ball",
+                              "colors": [
+                                16769360
+                              ]
+                            }
+                          ],
+                          "mode": "replace_all"
+                        },
+                        "flight_duration": 2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_fireworks",
+                        "explosions": {
+                          "values": [
+                            {
+                              "shape": "small_ball",
+                              "colors": [
+                                13521124
+                              ]
+                            }
+                          ],
+                          "mode": "replace_all"
+                        },
+                        "flight_duration": 2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_fireworks",
+                        "explosions": {
+                          "values": [
+                            {
+                              "shape": "creeper",
+                              "colors": [
+                                4295220
+                              ]
+                            }
+                          ],
+                          "mode": "replace_all"
+                        },
+                        "flight_duration": 2
+                      }
+                    ]
+                  }
+                ],
+                "rolls": {
+                  "max": 8,
+                  "min": 3
+                }
+              }
+            ]
+          },
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "water_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pufferfish_bucket"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

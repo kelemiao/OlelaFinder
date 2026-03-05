@@ -1,0 +1,62 @@
+{
+  "type": "block_column",
+  "config": {
+    "prioritize_tip": true,
+    "allowed_placement": {
+      "type": "all_of",
+      "predicates": [
+        {
+          "type": "minecraft:any_of",
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:wool_carpets"
+            }
+          ]
+        },
+        {
+          "type": "not",
+          "predicate": {
+            "type": "matching_blocks",
+            "blocks": [
+              "water",
+              "lava"
+            ]
+          }
+        }
+      ]
+    },
+    "direction": "down",
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "max_inclusive": 2,
+          "min_inclusive": 1
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "packed_ice",
+                "Properties": {}
+              },
+              "weight": 4
+            },
+            {
+              "data": {
+                "Name": "blue_ice",
+                "Properties": {}
+              },
+              "weight": 5
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+		"element": {
+		  "element_type": "minecraft:feature_pool_element",
+		  "feature": "nova_structures:stray_fort_wall_log",
+		  "projection": "rigid"
+		},
+		"weight": 1
+	}
+  ],
+  "fallback": "minecraft:empty"
+}

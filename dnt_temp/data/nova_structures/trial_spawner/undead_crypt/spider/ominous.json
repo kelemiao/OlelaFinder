@@ -1,0 +1,27 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/undead_crypt/ominous",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 5,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 2,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/undead_crypt/projectiles_undead_crypt",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:spider",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

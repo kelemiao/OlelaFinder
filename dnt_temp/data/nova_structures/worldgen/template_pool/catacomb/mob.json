@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:catacomb/mob",
+	"fallback": "nova_structures:catacomb/mob",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/mob/catacomb_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/mob/catacomb_stray_armor",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/mob/catacomb_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/mob/catacomb_mob_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		}
+	]
+}

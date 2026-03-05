@@ -1,0 +1,1 @@
+particle minecraft:smoke ~ ~ ~ 2 1 2 0 200 normal

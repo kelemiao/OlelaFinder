@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:stray_fort/room",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/room/stray_fort_room",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/room/stray_fort_room_jail",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/room/stray_fort_room_storrage_1",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/room/stray_fort_room_storrage_2",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/room/stray_fort_room_storrage_3",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:stray_fort/room/stray_fort_room_storrage_4",
+				"projection": "rigid",
+				"processors": "nova_structures:stray_fort_degradation"
+			}
+		}
+	]
+}

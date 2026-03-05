@@ -1,0 +1,173 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "minecraft:nether_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_nether_bricks"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:decorated_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.6
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:polished_blackstone",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:blackstone"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:brewing_stand",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.5
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:basalt",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:lava",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:blackstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:magma_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:soul_sand",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:nether_brick_fence",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:soul_soil",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_blackstone",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

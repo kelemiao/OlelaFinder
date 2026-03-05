@@ -1,0 +1,199 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "diamond_block"
+            },
+            {
+                "type": "minecraft:item",
+                "name": "iron_block",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 2,
+                            "min": 1
+                        }
+                    }
+                ],
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "emerald_block",
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "gold_block",
+                "weight": 3
+            }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "wild_armor_trim_smithing_template"
+            },
+            {
+                "type": "minecraft:item",
+                "name": "verdant_froglight",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 6,
+                            "min": 4
+                        }
+                    }
+                ],
+                "weight": 5
+            },
+            {
+                "type": "minecraft:item",
+                "name": "ochre_froglight",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 6,
+                            "min": 4
+                        }
+                    }
+                ],
+                "weight": 5
+            },
+            {
+                "type": "minecraft:item",
+                "name": "pearlescent_froglight",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 6,
+                            "min": 4
+                        }
+                    }
+                ],
+                "weight": 5
+            },
+            {
+                "type": "minecraft:item",
+                "name": "golden_apple",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 2,
+                            "min": 1
+                        }
+                    }
+                ],
+                "weight": 20
+            }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "diamond_helmet",
+                "functions": [
+                    {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                            "max": 15,
+                            "min": 10
+                        },
+                        "options": "#nova_structures:structure/toxic_lair"
+                    }
+                ],
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "diamond_chestplate",
+                "functions": [
+                    {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                            "max": 25,
+                            "min": 15
+                        },
+                        "options": "#nova_structures:structure/toxic_lair"
+                    }
+                ],
+                "weight": 10
+            },
+            {
+                "type": "minecraft:item",
+                "name": "diamond_leggings",
+                "functions": [
+                    {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                            "max": 25,
+                            "min": 10
+                        },
+                        "options": "#nova_structures:structure/toxic_lair"
+                    }
+                ],
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "diamond_boots",
+                "functions": [
+                    {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                            "max": 15,
+                            "min": 10
+                        },
+                        "options": "#nova_structures:structure/toxic_lair"
+                    }
+                ],
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "book",
+                "functions": [
+                    {
+                        "function": "enchant_with_levels",
+                        "levels": 25,
+                        "options": "#nova_structures:structure/toxic_lair"
+                    }
+                ],
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "bow",
+                "functions": [
+                    {
+                        "function": "enchant_with_levels",
+                        "levels": 15,
+                        "options": "#nova_structures:structure/toxic_lair"
+                    }
+                ],
+                "weight": 5
+            }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "nova_structures:loot_modifier"
+      }
+    ]
+  }
+  

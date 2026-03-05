@@ -1,0 +1,240 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_6_spawner",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_blaze",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_blaze_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_bogged",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_bogged_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_breeze",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_breeze_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_cave_spider",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_cave_spider_small",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_endermite",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_endermite_small",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_husk",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_husk_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_magma_cube",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_silverfish",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_silverfish_small",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_skeleton_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_slime",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_spider",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_stray_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_baby_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_zombie_random",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_drowned",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/spawner/shrine_v6_spawner_guardian",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		}
+	]
+}

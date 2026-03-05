@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:trial_dungeon/start",
+	"fallback": "nova_structures:trial_dungeon/start",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:trial_dungeon/room/trial_dungeon_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:trial_dungeonr"
+			}
+		}
+	]
+}

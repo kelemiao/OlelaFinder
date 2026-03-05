@@ -1,0 +1,32 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/creeping_crypt/ominous",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/creeper_key",
+      "weight": 2
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "total_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0.2,
+  "total_mobs_added_per_player": 0.2,
+  "ticks_between_spawn": 4,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/creeping_crypt/projectiles_creeping",
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "powered": true,
+          "id": "minecraft:creeper",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

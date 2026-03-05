@@ -1,0 +1,27 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:pale_room_patch",
+        "projection": "rigid"
+      },
+      "weight": 6
+    },
+	{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:pale_moss_big",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:units",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/skeleton_tower_unit_empty",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/skeleton_tower_unit_witherskeleton",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/skeleton_tower_unit_skeleton",
+				"projection": "rigid",
+				"processors": "minecraft:nether_fortress_generic_degradation"
+			}
+		}
+	]
+}

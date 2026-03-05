@@ -1,0 +1,94 @@
+{
+	"name": "nova_structures:cave_chamber/part_2",
+	"fallback": "nova_structures:cave_chamber/part_2_archy",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_hallway_ruins_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancien_glaced_ruins_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ancient_gateway_ruins_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_iron_deposit_hut_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_pillar_ruins_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_nether_portal_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_ruins_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_well_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		},
+		
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_throne_room_roof",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor_archy"
+			}
+		}
+	]
+}

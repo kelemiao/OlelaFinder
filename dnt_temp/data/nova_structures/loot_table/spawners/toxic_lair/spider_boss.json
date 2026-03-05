@@ -1,0 +1,21 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+              "type": "minecraft:loot_table",
+              "value": "nova_structures:keys/toxic_boss_key"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "nova_structures:loot_modifier"
+      }
+    ]
+  }
+  

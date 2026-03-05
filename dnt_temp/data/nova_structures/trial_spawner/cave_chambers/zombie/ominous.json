@@ -1,0 +1,35 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/cave_chambers/trial_spawner_ominous",
+      "weight": 1
+    },
+	{
+      "data": "nova_structures:keys/cave_chamber_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 1,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/cave_chambers/projectiles",
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    {
+      "data": {
+        "equipment": {
+          "slot_drop_chances": 0,
+          "loot_table": "nova_structures:equipment/cave_chambers/melee"
+        },
+        "entity": {
+          "id": "minecraft:zombie",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

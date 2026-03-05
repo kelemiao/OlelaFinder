@@ -1,0 +1,53 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/piglin_donjon_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 4,
+  "total_mobs": 12,
+  "simultaneous_mobs_added_per_player": 0.2,
+  "total_mobs_added_per_player": 0.2,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "attributes": [
+            {
+              "id": "max_health",
+              "base": 20
+            },
+            {
+              "id": "scale",
+              "base": 0.7
+            },
+            {
+              "id": "attack_damage",
+              "base": 2
+            }
+          ],
+          "id": "minecraft:hoglin",
+          "Tags": [
+            "trial_normal"
+          ],
+          "Passengers": [
+            {
+              "PersistenceRequired": true,
+              "id": "skeleton",
+              "equipment": {
+                "mainhand": {
+                  "count": 1,
+                  "id": "bow"
+                }
+			  }
+            }
+          ],
+          "Health": 20
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

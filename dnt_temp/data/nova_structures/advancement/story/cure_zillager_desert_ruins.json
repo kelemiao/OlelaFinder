@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.cure_zillager_desert_ruins.title",
+      "fallback": "Papyrus of the Sands"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.cure_zillager_desert_ruins",
+      "fallback": "Trade with the Zombie Librarians scattered around the Desert Ruins"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "cure": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_desert\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

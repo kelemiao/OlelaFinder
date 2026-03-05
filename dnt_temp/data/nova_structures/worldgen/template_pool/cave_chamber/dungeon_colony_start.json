@@ -1,0 +1,33 @@
+{
+	"name": "nova_structures:cave_chamber/cave",
+	"fallback": "nova_structures:cave_chamber/cave_fallback",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_dungeon_4",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/spawner_labyrinth",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_chamber_deepslate_labyrinth_small",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers"
+			}
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/toxic_lair/spider_boss_ominous",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 3,
+  "simultaneous_mobs_added_per_player": 0.2,
+  "total_mobs_added_per_player": 0.2,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/toxic_lair/toxic_projectiles",
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+           "Passengers": [
+            {
+              "PersistenceRequired": 1,
+              "id": "bogged",
+              "Tags": [
+                "trial_ominous"
+              ],
+              "equipment": {
+                "feet": {
+                  "Count": 1,
+                  "id": "iron_boots"
+                },
+                "legs": {
+                  "Count": 1,
+                  "id": "iron_leggings"
+                },
+                "chest": {
+                  "Count": 1,
+                  "id": "iron_chestplate"
+                },
+                "head": {
+                  "Count": 1,
+                  "id": "iron_helmet"
+                },
+                "mainhand": {
+                  "components": {
+                    "minecraft:enchantments": {
+                        "nova_structures:piercing": 3
+                      
+                    }
+                  },
+                  "Count": 1,
+                  "id": "bow"
+                }
+			  }
+            }
+          ],
+          "Health": 100,
+          "drop_chances": {
+            "mainhand": 0
+          },
+          "DeathLootTable": "nova_structures:mob/spider_boss",
+          "attributes": [
+            {
+              "id": "max_health",
+              "base": 100
+            },
+            {
+              "id": "scale",
+              "base": 2
+            },
+            {
+              "id": "attack_damage",
+              "base": 5
+            },
+            {
+              "id": "follow_range",
+              "base": 100
+            },
+            {
+              "id": "movement_speed",
+              "base": 0.3
+            }
+          ],
+          "id": "minecraft:cave_spider",
+          "Tags": [
+            "cave_spider_boss_ominous"
+          ],
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:enchantments": {
+                  "nova_structures:boss_behaviour": 1
+                }
+              },
+              "count": 1,
+              "id": "flint"
+            }
+          }
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

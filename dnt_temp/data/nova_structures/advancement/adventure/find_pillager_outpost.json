@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "minecraft:pillager_outpost": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:pillager_outpost"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_pillager_outpost",
+            "fallback": "Aproach a Pillager Outpost"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:crossbow"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_pillager_outpost.title",
+            "fallback": "Intruder Alert"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:pillager_outpost"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:donjon/donjon_framework/donjon_center_start",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:donjon/frame/donjon_frame_3x3_center_1",
+        "processors": "nova_structures:donjon_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

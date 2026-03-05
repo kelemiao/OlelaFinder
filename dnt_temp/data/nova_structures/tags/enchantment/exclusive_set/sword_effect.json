@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:fire_aspect",
+    "nova_structures:wither_coated"
+  ]
+}

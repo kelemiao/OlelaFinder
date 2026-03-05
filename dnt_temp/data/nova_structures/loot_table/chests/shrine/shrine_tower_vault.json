@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/shrine_tier_1",
+          "weight": 3
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/shrine_tier_2",
+          "weight": 3
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/shrine_tier_3",
+          "weight": 4
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/shrine_tier_4",
+          "weight": 5
+        },
+		{
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/shrine_tier_5",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:maps/shrine_tier_6",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

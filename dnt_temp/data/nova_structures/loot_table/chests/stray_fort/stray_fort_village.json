@@ -1,0 +1,290 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "max": 3,
+        "min": 1
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "nova_structures:chests/stray_fort/pools/cold",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "iron_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.7,
+                "type": "uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.7,
+                "type": "uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 0.7,
+                "type": "uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "saddle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 4,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "coal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "spruce_log",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 1,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "sweet_berries",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "beetroot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 4,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "leather_horse_armor",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "lead",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

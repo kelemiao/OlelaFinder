@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:cave_chamber/cave",
+	"fallback": "nova_structures:cave_chamber/spawner",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/spawner/cave_chamber_vault",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/spawner/cave_chamber_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/spawner/cave_chamber_spawner_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/spawner/cave_chamber_t_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/spawner/cave_chamber_t_spawner_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		}
+	]
+}

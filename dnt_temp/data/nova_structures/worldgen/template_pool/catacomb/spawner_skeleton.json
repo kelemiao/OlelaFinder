@@ -1,0 +1,24 @@
+{
+	"name": "nova_structures:catacomb/spawner_skeleton",
+	"fallback": "nova_structures:catacomb/spawner_skeleton",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		}
+	]
+}

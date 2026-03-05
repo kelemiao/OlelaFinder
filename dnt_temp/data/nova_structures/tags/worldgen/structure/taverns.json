@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:tavern_acacia",
+	"nova_structures:tavern_birch",
+	"nova_structures:tavern_cherry",
+	"nova_structures:tavern_dark_oak",
+	"nova_structures:tavern_desert",
+	"nova_structures:tavern_jungle",
+	"nova_structures:tavern_mangrove",
+	"nova_structures:tavern_oak",
+	"nova_structures:tavern_snowy",
+	"nova_structures:tavern_spruce",
+	"nova_structures:tavern_swamp"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:cave_chamber/cave",
+	"fallback": "nova_structures:cave_chamber/cave_fallback",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:cave_chamber/chambers/cave_wall",
+				"projection": "rigid",
+				"processors": "nova_structures:cave_chambers_processor"
+			}
+		}
+	]
+}

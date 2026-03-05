@@ -1,0 +1,204 @@
+{
+  "name": "minecraft:illager_mansion/illager_mob",
+  "fallback": "minecraft:illager_mansion/illager_mob",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/vindicator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/vindicator_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/pillager",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/pillager_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/evoker",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/evoker_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/witch",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/witch_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/vindicator2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/vindicator_void2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/pillager2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/pillager_void2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/evoker2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/evoker_void2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/witch2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "minecraft:illager_mansion/witch_void2",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/villager_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/villager",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/allay",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/allay_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/golem",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "minecraft:illager_mansion/golem_void",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+		"processors": "illager_manor_generic_degradation"
+      }
+    }
+  ]
+}

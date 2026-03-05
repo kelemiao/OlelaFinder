@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#nova_structures:hamlet",
+	"#nova_structures:piglin_donjon",
+	"#nova_structures:piglin_outstation",
+	"minecraft:bastion_remnant",
+	"nova_structures:piglin_camp"
+  ]
+}

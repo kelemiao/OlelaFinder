@@ -1,0 +1,202 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.dnt.gravity",
+    "fallback": "Gravity"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 6,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "nova_structures:gravity_particles"
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 10,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport",
+              "offset": [0,-0.2,0]
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 4,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport",
+              "offset": [0,0.2,0]
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 6,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport",
+              "offset": [0.2,0,0]
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 6,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport",
+              "offset": [-0.2,0,0]
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 6,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport",
+              "offset": [0,0,0.2]
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": -0.75,
+                "per_level_above_first": -0.25
+              },
+              "large_particle": {
+                "type": "minecraft:portal"
+              },
+              "radius": 6,
+              "small_particle": {
+                "type": "minecraft:portal"
+              },
+              "sound": "minecraft:entity.enderman.teleport",
+              "offset": [0,0,-0.2]
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "nova_structures:gravity_particles"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "nova_structures:ghasted"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/crossbow",
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 5
+}

@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    {
+      "id": "terralith:lush_desert",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:lush_desert",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:desert_shrubland",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:verdant_sands",
+      "required": false
+    },
+    {
+      "id": "#forge:is_desert",
+      "required": false
+    },
+    {
+      "id": "#c:desert",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:joshua_desert",
+      "required": false
+    },
+	{
+      "id": "regions_unexplored:saquaro_desert",
+      "required": false
+    },
+	{
+      "id": "clifftree:oasis",
+      "required": false
+    },
+	{
+      "id": "clifftree:shrubland",
+      "required": false
+    }
+  ]
+}

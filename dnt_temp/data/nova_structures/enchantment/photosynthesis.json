@@ -1,0 +1,66 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.dnt.photosynthesis",
+    "fallback": "Photosynthesis"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": -1
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false,
+              "raining": false
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "chance": {
+                "type": "minecraft:enchantment_level",
+                "amount": 0.01
+              },
+              "condition": "minecraft:random_chance"
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 0,
+                "max": 12000
+              },
+              "period": 24000
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/repair",
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

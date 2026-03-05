@@ -1,0 +1,37 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/trident_trial_boss_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 2,
+  "total_mobs": 2,
+  "simultaneous_mobs_added_per_player": 0.2,
+  "total_mobs_added_per_player": 0.2,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "drop_chances": {
+            "mainhand": 0
+          },
+          "id": "minecraft:elder_guardian",
+          "Tags": [
+            "elder_guardian_boss_normal",
+            "trial_normal"
+          ],
+          "equipment": {
+            "mainhand": {
+              "count": 1,
+              "id": "stick"
+            }
+          },
+          "DeathLootTable":"nova_structures:mob/elder_guardian"
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

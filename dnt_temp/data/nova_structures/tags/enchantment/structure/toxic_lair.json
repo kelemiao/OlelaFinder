@@ -1,0 +1,19 @@
+{
+	"values": [
+		"minecraft:protection",
+		"minecraft:projectile_protection",
+		"minecraft:respiration",
+		"minecraft:thorns",
+		"minecraft:depth_strider",
+		"minecraft:smite",
+		"minecraft:bane_of_arthropods",
+		"minecraft:unbreaking",
+		"minecraft:infinity",
+		"minecraft:power",
+		"minecraft:punch",
+		"minecraft:luck_of_the_sea",
+		"nova_structures:antidote",
+		"nova_structures:piercing",
+		"nova_structures:multishot"
+	]
+}

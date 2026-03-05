@@ -1,0 +1,47 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/trident_trial_monument/small_monument",
+      "weight": 6
+    },
+    {
+      "data": "nova_structures:keys/trident_trial_key",
+      "weight": 2
+    }
+  ],
+  "simultaneous_mobs": 5,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/trident_trial_monument/projectile_trident_trial_monument",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+           "DeathLootTable": "nova_structures:mob/elder_guardian",
+          "attributes": [
+            {
+              "id": "max_health",
+              "base": 40
+            },
+            {
+              "id": "scale",
+              "base": 0.5
+            },
+            {
+              "id": "attack_damage",
+              "base": 7
+            }
+          ],
+          "id": "minecraft:elder_guardian",
+          "Tags": [
+            "trial_ominous"
+          ],
+          "Health": 40
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

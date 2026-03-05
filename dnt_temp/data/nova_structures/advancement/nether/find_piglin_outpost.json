@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:nether/find_piglins",
+    "criteria": {
+        "nova_structures:piglin_outstation": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:piglin_outstation"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_piglin_outpost",
+            "fallback": "Break into a Piglin Outstation to find it's Vault"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:gilded_blackstone"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_piglin_outpost.title",
+            "fallback": "Golden Heist"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:piglin_outstation"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

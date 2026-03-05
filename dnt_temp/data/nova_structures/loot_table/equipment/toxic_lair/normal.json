@@ -1,0 +1,285 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:leather_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:leather_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:leather_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:leather_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:iron_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:iron_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:diamond_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.5,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:wild"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      }
+                    ],
+                    "name": "minecraft:diamond_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.15,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_shovel"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

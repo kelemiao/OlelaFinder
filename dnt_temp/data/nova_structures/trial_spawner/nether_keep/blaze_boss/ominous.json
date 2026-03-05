@@ -1,0 +1,27 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/nether_keep_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 5,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/nether_keep/projectiles_keep",
+  "ticks_between_spawn":  4,
+  "spawn_potentials":  [
+    {
+      "data": {
+        "entity":  {
+          "id": "minecraft:blaze",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

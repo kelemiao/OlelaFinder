@@ -1,0 +1,358 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ],
+          "name": "minecraft:beetroot_soup",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:pumpkin",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:carved_pumpkin",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:jack_o_lantern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_ominous_bottle_amplifier",
+              "amplifier": {
+                "max": 4,
+                "min": 1
+              }
+            }
+          ],
+          "name": "minecraft:ominous_bottle",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "effects": [
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:jump_boost",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:weakness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 8.0,
+                    "min": 6.0
+                  }
+                },
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 7.0,
+                    "min": 5.0
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 20.0,
+                    "min": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                }
+              ],
+              "function": "minecraft:set_stew_effect"
+            }
+          ],
+          "name": "minecraft:suspicious_stew",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ],
+          "name": "minecraft:golden_apple",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 2,
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "max": 2,
+                          "min": 1,
+                          "type": "uniform"
+                        }
+                      }
+                    ],
+                    "name": "minecraft:packed_ice"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "max": 2,
+                          "min": 1,
+                          "type": "uniform"
+                        }
+                      }
+                    ],
+                    "name": "minecraft:blue_ice"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 2,
+                          "max": 4
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:snowball"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 1,
+                          "max": 2
+                        },
+                        "add": false
+                      }
+                    ],
+                    "name": "minecraft:snow_block"
+                  }
+                ]
+              },
+              {
+                "rolls": 2,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone",
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "max": 2,
+                          "min": 1
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spider_eye"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                      {
+                        "function": "set_count",
+                        "count": {
+                          "max": 3,
+                          "min": 2
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 5,
+                "min": 3
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 4
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 4,
+                "min": 2
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 160
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sentry_armor_trim_smithing_template",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:vex_armor_trim_smithing_template",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:creaking_heart",
+          "weight": 10
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "nova_structures:equipment/normal_mobs/equipment",
+          "functions": [
+            {
+              "function": "minecraft:filtered",
+              "item_filter": {
+                "items": "#minecraft:head_armor"
+              },
+              "modifier": {
+                "function": "minecraft:set_count",
+                "count": 0
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "enchant_with_levels",
+          "levels": {
+            "max": 22,
+            "min": 5
+          },
+          "options": "#minecraft:on_mob_spawn_equipment",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.25
+            }
+          ]
+        },
+        {
+          "function": "set_damage",
+          "damage": {
+            "max": 1,
+            "min": 0
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "leather_helmet",
+          "weight": 75
+        },
+        {
+          "type": "item",
+          "name": "chainmail_helmet",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "iron_helmet",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "diamond_helmet",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "enchant_with_levels",
+          "levels": {
+            "max": 22,
+            "min": 5
+          },
+          "options": "#minecraft:on_mob_spawn_equipment",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:equipment/trial_chamber"
+}

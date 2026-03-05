@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "duration": 80
+                    }
+                  ],
+                  "custom_name": "dnt_levitation"
+                }
+              }
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 10,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

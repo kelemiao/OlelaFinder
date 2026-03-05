@@ -1,0 +1,69 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_6_small_deco",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_1",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_2",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_3",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_4",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_5",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/small_deco/shrine_v6_small_deco_6",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_tier_6_processor"
+			}
+		}
+	]
+}

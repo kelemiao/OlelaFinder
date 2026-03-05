@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "stone_sword",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "max": 1,
+                "min": 0
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 22,
+                "min": 5
+              },
+              "options": "#minecraft:on_mob_spawn_equipment"
+            },
+            {
+              "function": "enchant_randomly",
+              "options": "#nova_structures:wither_coated"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:equipment/trial_chamber"
+}

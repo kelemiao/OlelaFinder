@@ -1,0 +1,20 @@
+{
+	"values": [
+		"nova_structures:illagers_bane",
+		"nova_structures:spiteful",
+		"minecraft:protection",
+		"minecraft:fire_protection",
+		"minecraft:sharpness",
+		"minecraft:smite",
+		"minecraft:bane_of_arthropods",
+		"minecraft:fire_aspect",
+		"minecraft:looting",
+		"minecraft:sweeping_edge",
+		"minecraft:efficiency",
+		"minecraft:silk_touch",
+		"minecraft:unbreaking",
+		"minecraft:multishot",
+		"minecraft:quick_charge",
+		"minecraft:piercing"
+	]
+}

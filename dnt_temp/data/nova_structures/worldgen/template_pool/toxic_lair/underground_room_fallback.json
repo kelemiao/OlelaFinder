@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:toxic_lair/underground_room_fallback",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:toxic_lair/room/toxic_lair_underground_fallback",
+        "processors": "nova_structures:toxic_lair_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 8954814,
+                  "custom_name": "dnt_dolphins_grace",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "duration": 60
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

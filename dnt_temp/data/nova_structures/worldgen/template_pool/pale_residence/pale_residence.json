@@ -1,0 +1,159 @@
+{
+	"name": "nova_structures:town_center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_1_small",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_-1_small",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_basement_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_2_small",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_3_small",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_4_small",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_1_medium",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_-1_medium",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_basement_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_2_medium",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_3_medium",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_4_medium",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_1_big",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_e_big_extra",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_1_big_extra",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_-1_big",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_basement_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_2_big",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_3_big",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/pale_residence_main_4_big",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_residence_main_degradation"
+			}
+		}
+	]
+}

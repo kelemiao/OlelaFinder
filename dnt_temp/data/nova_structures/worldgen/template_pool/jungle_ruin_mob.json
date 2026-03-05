@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:jungle_ruin",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_mob_bogged",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_mob_bogged_armour",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_mob_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_mob_zombie_armour",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_mob_cave_spider",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:jungle_ruin/jungle_ruins_mob_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:jungle_ruins_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.dnt.wax_wings",
+    "fallback": "Wax Wings"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": -1
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": 2
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "speed": {
+                "min": 30
+              }
+            },
+            "flags": {
+              "is_flying": true
+            },
+            "periodic_tick": 15,
+            "location": {
+              "position": {
+                "y": {
+                  "min": -100,
+                  "max": 500
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": 2
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false,
+              "raining": false
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 0,
+                "max": 12000
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "speed": {
+                    "min": 30
+                  }
+                },
+                "flags": {
+                  "is_flying": true
+                },
+                "location": {
+                  "position": {
+                    "y": {
+                      "min": 500,
+                      "max": 9999
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#nova_structures:exclusive_set/elytra",
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "minecraft:elytra",
+  "weight": 5
+}

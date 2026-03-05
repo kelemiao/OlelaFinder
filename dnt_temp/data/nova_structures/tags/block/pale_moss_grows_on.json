@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:pale_oak_planks",
+    "minecraft:stripped_pale_oak_log",
+    "minecraft:stripped_pale_oak_wood",
+    "#minecraft:moss_replaceable",
+    "minecraft:pale_moss_block",
+    "#sculk_replaceable_world_gen",
+    "minecraft:deepslate_tile_stairs",
+    "minecraft:deepslate_tile_slab"
+  ]
+}

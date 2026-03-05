@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:lone_citadel/pillar_polished_andesite",
+	"fallback": "nova_structures:lone_citadel/pillar_polished_andesite",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:polished_andesite_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

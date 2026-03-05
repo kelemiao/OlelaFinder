@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:deepslate_camp",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:deepslate_camp/deepslate_camp",
+				"projection": "rigid",
+				"processors": "nova_structures:deepslate_camp"
+			}
+		}
+	]
+}

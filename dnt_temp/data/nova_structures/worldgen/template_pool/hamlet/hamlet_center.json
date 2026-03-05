@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:hamlet_center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_center_1",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_center_2",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_center_3",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:hamlet/hamlet_center_4",
+				"projection": "rigid",
+				"processors": "nova_structures:hamlet_generic_degradation"
+			}
+		}
+	]
+}

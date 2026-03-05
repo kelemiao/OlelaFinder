@@ -1,0 +1,37 @@
+{
+    "parent": "nova_structures:adventure/find_tavern",
+    "criteria": {
+        "trade_quest": {
+          "trigger": "minecraft:villager_trade",
+          "conditions": {
+            "villager": {
+              "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+            }
+          }
+        }
+      },
+    "display": {
+        "icon": {
+			"count": 1,
+            "id": "minecraft:map"
+        },
+        "title": {
+            "translate": "advancement.dnt.adventure.tavern_quest.title",
+            "fallback": "Call for Adventure"
+        },
+        "description": {
+            "translate": "advancement.dnt.adventure.tavern_quest",
+            "fallback": "Trade with a Tavern Cartographer to gain access to a Quest Map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "trade_quest"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

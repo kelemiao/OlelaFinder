@@ -1,0 +1,57 @@
+{
+	"name": "nova_structures:catacomb/pot",
+	"fallback": "nova_structures:catacomb/pot",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/shelf/catacomb_shelf_deco_1",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/shelf/catacomb_shelf_deco_2",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/shelf/catacomb_shelf_deco_3",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/shelf/catacomb_shelf_deco_4",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/shelf/catacomb_shelf_deco_5",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 2
+		}	
+	]
+}

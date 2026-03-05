@@ -1,0 +1,26 @@
+{
+  "parent": "nova_structures:root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        },
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "minecraft:phantom",
+            "nbt": "{Tags:[\"phantom_boss\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:fall_to_death"
+  },
+  "sends_telemetry_event": true
+}

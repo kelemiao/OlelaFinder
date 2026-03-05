@@ -1,0 +1,103 @@
+{
+  "type": "block_column",
+  "config": {
+    "prioritize_tip": true,
+    "allowed_placement": {
+      "type": "all_of",
+      "predicates": [
+        {
+          "type": "any_of",
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:wool_carpets"
+            }
+          ]
+        },
+        {
+          "type": "not",
+          "predicate": {
+            "type": "matching_blocks",
+            "blocks": [
+              "water",
+              "lava"
+            ]
+          }
+        },
+        {
+          "type": "any_of",
+          "predicates": [
+            {
+              "type": "has_sturdy_face",
+              "direction": "east",
+              "offset": [
+                -1,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "has_sturdy_face",
+              "direction": "west",
+              "offset": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "has_sturdy_face",
+              "direction": "south",
+              "offset": [
+                0,
+                0,
+                -1
+              ]
+            },
+            {
+              "type": "has_sturdy_face",
+              "direction": "north",
+              "offset": [
+                0,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "direction": "up",
+    "layers": [
+      {
+        "height": {
+          "type": "biased_to_bottom",
+          "max_inclusive": 2,
+          "min_inclusive": 1
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "packed_ice",
+                "Properties": {}
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "blue_ice",
+                "Properties": {}
+              },
+              "weight": 8
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

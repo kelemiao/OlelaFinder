@@ -1,0 +1,114 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:remnant_bundle_tent",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_bee_keeper",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_big_remnant",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_big_remnant_2",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_big_remnant_3",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_bridge_remnant",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_birch_graveyard",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_bunny_base",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_desert_remnant",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_forest_smith",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_frog_ranch",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_graveyard",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_medium_remnant",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_medium_remnant_2",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_miner_hut",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_mud_brick_constructor",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_ominous_shop",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_ruin_farmer",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_ruin_smith",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_sawmill",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_school_remnant",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_taiga_castle",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_woodland_hud",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_zombie_horse_ranch",
+			"weight": 1
+		},
+		{
+			"structure": "nova_structures:remnant_classic_village",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 10
+    },
+		"spacing": 120,
+		"separation": 30,
+		"salt": 9785737382,
+		"type": "minecraft:random_spread"
+	}
+}

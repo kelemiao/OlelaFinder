@@ -1,0 +1,22 @@
+{
+	"values": [
+		"minecraft:protection",
+		"minecraft:feather_falling",
+		"minecraft:blast_protection",
+		"minecraft:projectile_protection",
+		"minecraft:aqua_affinity",
+		"minecraft:respiration",
+		"minecraft:sharpness",
+		"minecraft:smite",
+		"minecraft:looting",
+		"minecraft:efficiency",
+		"minecraft:silk_touch",
+		"minecraft:power",
+		"minecraft:punch",
+		"minecraft:flame",
+		"minecraft:quick_charge",
+		"minecraft:piercing",
+		"minecraft:density",
+		"nova_structures:power"
+	]
+}

@@ -1,0 +1,231 @@
+{
+	"name": "nova_structures:creeping_crypt/rooms",
+	"fallback": "nova_structures:creeping_crypt/room_fail",
+	"elements": [
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_stairs_1",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_stairs_2",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_stairs_3",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_stairs_4",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_1",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_2",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 13,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_3",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 11,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_4",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 11,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_5",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_6",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_7",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_8",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_9",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_10",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_11",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_12",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_13",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_14",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_15",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_16",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_17",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_18",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_19",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_20",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_rooms/creeping_crypit_room_21",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		}
+	]
+}

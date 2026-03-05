@@ -1,0 +1,85 @@
+{
+  "feature": {
+    "type": "simple_block",
+    "config": {
+      "to_place": {
+        "type": "simple_state_provider",
+        "state": {
+          "Name": "minecraft:pale_moss_block",
+          "Properties": {}
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "matching_block_tag",
+        "tag": "nova_structures:pale_moss_grows_on"
+      }
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "any_of",
+        "predicates": [
+          {
+            "type": "matching_block_tag",
+            "tag": "nova_structures:moss_spreads_over",
+            "offset": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "type": "matching_block_tag",
+            "tag": "nova_structures:moss_spreads_over",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "matching_block_tag",
+            "tag": "nova_structures:moss_spreads_over",
+            "offset": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "matching_block_tag",
+            "tag": "nova_structures:moss_spreads_over",
+            "offset": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "matching_block_tag",
+            "tag": "nova_structures:moss_spreads_over",
+            "offset": [
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "type": "matching_block_tag",
+            "tag": "nova_structures:moss_spreads_over",
+            "offset": [
+              0,
+              0,
+              -1
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/piglin_donjon/normal",
+      "weight": 6
+    },
+    {
+      "data": "nova_structures:keys/piglin_donjon_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:wither_skeleton",
+          "Tags": [
+            "trial_normal"
+          ]
+        },
+        "equipment": {
+          "loot_table": "nova_structures:equipment/normal_mobs/wither_skeleton",
+          "slot_drop_chances": {
+            "body": 0.085,
+            "chest": 0.085,
+            "feet": 0.085,
+            "head": 0.085,
+            "legs": 0.085,
+            "mainhand": 0.085,
+            "offhand": 0.085
+          }
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:skeleton_camp_crimson",
+	"nova_structures:skeleton_camp_soul",
+	"nova_structures:skeleton_camp_warped",
+	"nova_structures:skeleton_camp_waste"
+  ]
+}

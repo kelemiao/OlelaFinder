@@ -1,0 +1,10 @@
+{
+	"values": [
+		"minecraft:flame",
+		"minecraft:fire_aspect",
+		"minecraft:fire_protection",
+		"minecraft:blast_protection",
+		"minecraft:punch",
+		"nova_structures:aerials_bane"
+	]
+}

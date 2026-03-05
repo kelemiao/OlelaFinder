@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:witch_villa/mob",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/mob/witch_villa_mob_witch",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 14
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/mob/witch_villa_mob_skeleton",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/mob/witch_villa_mob_zombie",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/mob/witch_villa_mob_slime",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/mob/witch_villa_mob_enderman",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:witch_villa/mob/witch_villa_mob_fail",
+        "processors": "nova_structures:witch_villa_generic_degradation",
+        "projection": "rigid"
+      },
+      "weight": 24
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

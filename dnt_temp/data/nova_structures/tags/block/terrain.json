@@ -1,0 +1,23 @@
+{
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:dirt",
+    "#minecraft:sand",
+    "#minecraft:terracotta",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "minecraft:water",
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:calcite",
+    "minecraft:snow_block",
+    "minecraft:packed_ice",
+    {
+      "id": "#clifftree:base_overworld_terrain",
+      "required": false
+    },
+    "water"
+  ]
+}

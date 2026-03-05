@@ -1,0 +1,343 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:diamond_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:diamond_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:diamond_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": 20,
+                        "options": "#minecraft:on_random_loot"
+                      }
+                    ],
+                    "name": "minecraft:diamond_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.4,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                          "max": 20,
+                          "min": 15
+                        },
+                        "options": "#minecraft:on_mob_spawn_equipment"
+                      }
+                    ]
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.4,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                          "max": 15,
+                          "min": 10
+                        },
+                        "options": "#minecraft:on_mob_spawn_equipment"
+                      }
+                    ]
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+			  {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_boots"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                      {
+                        "function": "enchant_with_levels",
+                        "levels": {
+                          "max": 10,
+                          "min": 5
+                        },
+                        "options": "#minecraft:on_mob_spawn_equipment"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "chance": 0.4,
+                        "condition": "minecraft:random_chance"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+	"name": "nova_structures:town_center",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/library_deco_1",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/library_deco_2",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/library_deco_3",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/library_deco_4",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:pale_residence/residence/funiture/library_deco_5",
+				"projection": "rigid",
+				"processors": "nova_structures:pale_resi_funiture"
+			}
+		},
+		{
+			"element": {
+			"element_type": "minecraft:empty_pool_element"
+			},
+			"weight": 1
+		}
+	]
+}

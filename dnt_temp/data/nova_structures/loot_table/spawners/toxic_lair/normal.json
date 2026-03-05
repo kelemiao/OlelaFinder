@@ -1,0 +1,85 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "mushroom_stew",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 3,
+                            "min": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "cooked_cod",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 4,
+                            "min": 2
+                        }
+                    }
+                ],
+                "weight": 5
+            },
+            {
+                "type": "minecraft:item",
+                "name": "honey_bottle",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 2,
+                            "min": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "arrow",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 5,
+                            "min": 2
+                        }
+                    }
+                ],
+                "weight": 5
+            },
+            {
+                "type": "minecraft:item",
+                "name": "iron_nugget",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": {
+                            "max": 5,
+                            "min": 2
+                        }
+                    }
+                ],
+                "weight": 3
+            }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "nova_structures:loot_modifier"
+      }
+    ]
+  }
+  

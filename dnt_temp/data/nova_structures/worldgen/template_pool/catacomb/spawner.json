@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:catacomb/spawner",
+	"fallback": "nova_structures:catacomb/spawner",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_stray",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_zombie",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_chest",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:catacomb/spawner/catacomb_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:catacomb_degradation"
+			}
+		}
+	]
+}

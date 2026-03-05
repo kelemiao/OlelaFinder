@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_seeds",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.cure_zillager_jungle_ruins.title",
+      "fallback": "Knowledge of the Jungle"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.cure_zillager_jungle_ruins",
+      "fallback": "Trade with the Zombie Librarians found within the Jungle Ruins"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "cure": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_jungle\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

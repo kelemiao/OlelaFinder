@@ -1,0 +1,81 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.dnt.spiteful",
+    "fallback": "Spiteful"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 2
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "dnt_health": {
+              "min": 0,
+              "max": 5
+            }
+          }
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "effect": {
+          "type": "apply_mob_effect",
+          "max_amplifier": 0,
+          "min_amplifier": 0,
+          "max_duration": 3,
+          "min_duration": 1,
+          "to_apply": "strength"
+        },
+        "affected": "victim",
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "random_chance",
+              "chance": {
+                "type": "enchantment_level",
+                "amount": {
+                  "type": "linear",
+                  "base": 0.3,
+                  "per_level_above_first": 0.15
+                }
+              }
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "is_direct": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 20
+}

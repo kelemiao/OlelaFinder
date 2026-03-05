@@ -1,0 +1,31 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/piglin_outstation/normal",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/piglin_outstation_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 6,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 1,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+		  "Size": 2,
+          "id": "minecraft:magma_cube",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

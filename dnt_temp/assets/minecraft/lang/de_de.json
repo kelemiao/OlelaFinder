@@ -1,0 +1,13 @@
+{
+    "item.minecraft.lingering_potion.effect.dnt_blindness": "Verweiltrank der Blindheit",
+    "item.minecraft.tipped_arrow.effect.dnt_levitation": "Pfeil der Schwebekraft",
+    "item.minecraft.lingering_potion.effect.dnt_levitation": "Verweiltrank der Schwebekraft",
+    "item.minecraft.splash_potion.effect.dnt_levitation": "Splash Trank der Schwebekraft",
+    "item.minecraft.potion.effect.dnt_levitation": "Trank der Schwebekraft",
+    "item.minecraft.tipped_arrow.effect.dnt_nausea": "Pfeil der Übelkeit",
+    "item.minecraft.lingering_potion.effect.dnt_nausea": "Verweiltrank der Übelkeit",
+    "item.minecraft.tipped_arrow.effect.dnt_wither": "Pfeil der Verdorrung",
+    "item.minecraft.lingering_potion.effect.dnt_wither": "Verweiltrank der Verdorrung",
+    "item.minecraft.splash_potion.effect.dnt_wither": "Splash Trank der Verdorrung",
+    "item.minecraft.potion.effect.dnt_wither": "Trank der Verdorrung"
+}

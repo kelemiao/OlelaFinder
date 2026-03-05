@@ -1,0 +1,16 @@
+{
+  "values": [
+    "nova_structures:bunker",
+    "nova_structures:creeping_crypt",
+    "nova_structures:deepslate_camp",
+    "nova_structures:illager_hideout",
+    "nova_structures:shrine_combat_tier_1",
+    "nova_structures:shrine_combat_tier_2",
+    "nova_structures:shrine_combat_tier_3",
+    "nova_structures:shrine_combat_tier_4",
+    "nova_structures:shrine_combat_tier_5",
+    "nova_structures:shrine_combat_tier_6",
+    "nova_structures:undead_crypt",
+    "nova_structures:underground_house"
+  ]
+}

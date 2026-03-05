@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 5578058,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "duration": 400
+                    }
+                  ],
+                  "custom_name": "dnt_nausea"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:lingering_potion",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ]
+}

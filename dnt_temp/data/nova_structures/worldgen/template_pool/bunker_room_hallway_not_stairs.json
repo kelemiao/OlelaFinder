@@ -1,0 +1,411 @@
+{
+	"name": "nova_structures:bunker_room_hallway",
+	"fallback": "nova_structures:bunker_hallway_fail",
+	"elements": [
+		{
+			"weight": 30,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_cross_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_curve_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_curve_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_straight_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_straight_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_t-curve_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_t-curve_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_3",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_4",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_5",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_6",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_7",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_8",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_9",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_10",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_11",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_12",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_13",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_14",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_15",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_16",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_17",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_18",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_19",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_20",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_21",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_22",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_23",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_24",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_25",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_26",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_27",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_28",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_29",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_small_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_small_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_small_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_small_straight_chest",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_hallway_small_t-cross",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_door_1",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_door_2",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:bunker/bunker_underground_door_3",
+				"projection": "rigid",
+				"processors": "nova_structures:bunker_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,173 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.dnt.ghasted",
+    "fallback": "Ghasted"
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "radius": 3,
+              "block_interaction": "none",
+              "small_particle": {
+                "type": "minecraft:smoke"
+              },
+              "large_particle": {
+                "type": "minecraft:flame"
+              },
+              "sound": "minecraft:entity.ghast.shoot",
+              "knockback_multiplier": 0,
+              "create_fire": true
+            },
+            {
+              "type": "minecraft:ignite",
+              "duration": 100.0
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:linear",
+        "base": 1.25,
+        "per_level_above_first": 0.25
+      }
+    },
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "tnt",
+              "immune_blocks": "#nova_structures:explosion_resistand",
+              "knockback_multiplier": 0,
+              "large_particle": {
+                "type": "minecraft:explosion"
+              },
+              "radius": {
+                "type": "minecraft:linear",
+                "base": 0.4,
+                "per_level_above_first": 0.1
+              },
+              "small_particle": {
+                "type": "minecraft:explosion_emitter"
+              },
+              "sound": "minecraft:entity.generic.explode",
+              "damage_type": "minecraft:player_explosion",
+              "create_fire": false
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#nova_structures:explosion_resistand",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": 0.5,
+                "per_level_above_first": 1.5
+              },
+              "large_particle": {
+                "type": "minecraft:explosion"
+              },
+              "radius": 5,
+              "small_particle": {
+                "type": "minecraft:explosion_emitter"
+              },
+              "sound": "minecraft:entity.generic.explode"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "nova_structures:ghasted"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "tnt",
+              "immune_blocks": "#nova_structures:explosion_resistand",
+              "knockback_multiplier": 0,
+              "large_particle": {
+                "type": "minecraft:explosion"
+              },
+              "radius": {
+                "type": "minecraft:linear",
+                "base": 0.4,
+                "per_level_above_first": 0.1
+              },
+              "small_particle": {
+                "type": "minecraft:explosion_emitter"
+              },
+              "sound": "minecraft:entity.generic.explode",
+              "damage_type": "minecraft:player_explosion",
+              "create_fire": true
+            },
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "none",
+              "immune_blocks": "#nova_structures:explosion_resistand",
+              "knockback_multiplier": {
+                "type": "minecraft:linear",
+                "base": 0.5,
+                "per_level_above_first": 1.0
+              },
+              "large_particle": {
+                "type": "minecraft:explosion"
+              },
+              "radius": 5,
+              "small_particle": {
+                "type": "minecraft:explosion_emitter"
+              },
+              "sound": "minecraft:entity.generic.explode"
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/crossbow",
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 50
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:nether_port/main",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_main",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		}
+	]
+}

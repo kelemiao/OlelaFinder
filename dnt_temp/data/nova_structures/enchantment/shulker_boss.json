@@ -1,0 +1,39 @@
+{
+	"anvil_cost": 0,
+	"description": {
+    	"translate": "enchantment.dnt.shulker_boss",
+    	"fallback": "LOOT TABLE ERROR #2- REPORT TO OTHER MOD/DATAPACK AUTHOR"
+	},
+	"exclusive_set": "minecraft:unbreaking",
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:levitation",
+					"min_duration": 15,
+					"max_duration": 15,
+					"min_amplifier": 1,
+					"max_amplifier": 1
+				}
+			}
+		],
+		"minecraft:prevent_equipment_drop": {}
+	},
+	"max_cost": {
+		"base": 100,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"hand"
+	],
+	"supported_items": "minecraft:stick",
+	"weight": 20
+}

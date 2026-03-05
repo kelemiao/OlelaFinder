@@ -1,0 +1,154 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+		{
+          "input_predicate": {
+            "block": "minecraft:flower_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:potted_lily_of_the_valley"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:flower_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:potted_white_tulip"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:flower_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:potted_azure_bluet"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:flower_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:potted_pale_oak_sapling"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:flower_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:potted_oxeye_daisy"
+          }
+        },
+		{
+          "input_predicate": {
+            "block": "minecraft:flower_pot",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.8
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:potted_closed_eyeblossom"
+          }
+        },
+          {
+            "input_predicate": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:pale_oak_wood",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "y",
+				"creaking": "dormant"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:pale_oak_wood",
+                "Properties": {
+                  "axis": "x"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "x",
+				"creaking": "dormant"
+              }
+            }
+          },
+          {
+            "input_predicate": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:pale_oak_wood",
+                "Properties": {
+                  "axis": "z"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "z",
+				"creaking": "dormant"
+              }
+            }
+          }
+        ]
+      },
+	{
+      "processor_type": "minecraft:protected_blocks",
+      "value": "#nova_structures:pale_residence_funiture_protected"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:jigsaw",
+	"start_pool": "nova_structures:stray_outlook/start",
+	"biomes": "#nova_structures:collections/snowy_structures",
+	"project_start_to_heightmap": "OCEAN_FLOOR_WG",
+	"liquid_settings": "ignore_waterlogging",
+	"start_height": {
+		"absolute": 0
+	},
+	"spawn_overrides": {
+    "monster": {
+	"bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:stray",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 4
+        }
+      ]
+    }
+  },
+	"step": "surface_structures",
+	"use_expansion_hack": true,
+	"max_distance_from_center": 100,
+	"pool_aliases": [
+    {
+      "type": "minecraft:random_group",
+      "groups": [
+        {
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/path",
+              "target": "nova_structures:stray_outlook/path_stone"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/plate",
+              "target": "nova_structures:stray_outlook/plate_stone"
+            },
+			{
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/wall_plank",
+              "target": "nova_structures:stray_outlook/wall_plank_stone"
+            },
+			{
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/path_no_cross",
+              "target": "nova_structures:stray_outlook/path_no_cross_stone"
+            }
+          ],
+          "weight": 1
+        },
+		{
+          "data": [
+            {
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/path",
+              "target": "nova_structures:stray_outlook/path"
+            },
+            {
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/plate",
+              "target": "nova_structures:stray_outlook/plate"
+            },
+			{
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/wall_plank",
+              "target": "nova_structures:stray_outlook/wall_plank"
+            },
+			{
+              "type": "minecraft:direct",
+              "alias": "nova_structures:stray_outlook/path_no_cross",
+              "target": "nova_structures:stray_outlook/path_no_cross"
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    }
+  ],
+	"size": 7,
+	"terrain_adaptation": "beard_box"
+}

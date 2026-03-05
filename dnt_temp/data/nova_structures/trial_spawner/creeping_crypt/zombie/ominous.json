@@ -1,0 +1,35 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/creeping_crypt/ominous",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/creeper_key",
+      "weight": 2
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 5,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 1,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/creeping_crypt/projectiles_creeping",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "equipment": {
+          "slot_drop_chances": 0,
+          "loot_table": "nova_structures:equipment/creeping_crypt/normal"
+        },
+        "entity": {
+          "id": "minecraft:zombie",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

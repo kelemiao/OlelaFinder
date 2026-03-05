@@ -1,0 +1,1 @@
+execute as @s run summon minecraft:spider ~ ~ ~ {HandItems:[{id:stick,Count:1,components:{"minecraft:enchantments":{"levels":{"nova_structures:boss_behaviour":1}}}}],Health:8f,attributes:[{id:max_health,base:8},{id:scale,base:0.5},{id:attack_damage,base:2}],Tags:["spider_minion"]}

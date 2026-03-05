@@ -1,0 +1,90 @@
+{
+  "feature": "nova_structures:stray_wall_log",
+  "placement": [
+    {
+      "type": "environment_scan",
+      "direction_of_search": "up",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "not",
+        "predicate": {
+          "type": "any_of",
+          "predicates": [
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                1,
+                -6,
+                -1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                1,
+                -6,
+                0
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                1,
+                -6,
+                1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                0,
+                -6,
+                -1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                0,
+                -6,
+                1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                -1,
+                -6,
+                -1
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                -1,
+                -6,
+                0
+              ]
+            },
+            {
+              "type": "matching_block_tag",
+              "tag": "nova_structures:terrain",
+              "offset": [
+                -1,
+                -6,
+                1
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

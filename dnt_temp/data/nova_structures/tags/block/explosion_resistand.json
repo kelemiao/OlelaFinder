@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#minecraft:wither_immune",
+    "#minecraft:needs_diamond_tool",
+    "minecraft:ender_chest",
+    "minecraft:enchanting_table",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:heavy_core",
+    "minecraft:trial_spawner",
+    "minecraft:vault"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:exclusive_set/damage",
+    "minecraft:power",
+    "nova_structures:power",
+    "nova_structures:aerials_bane"
+  ]
+}

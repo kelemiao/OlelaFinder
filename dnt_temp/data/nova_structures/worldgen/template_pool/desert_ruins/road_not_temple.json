@@ -1,0 +1,87 @@
+{
+	"name": "nova_structures:road",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path1",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path2",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path3",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path4",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path5",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path6",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path7",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path8",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/path/desert_ruins_path9",
+				"projection": "terrain_matching",
+				"processors": "nova_structures:desert_ruins_road"
+			}
+		}
+	]
+}

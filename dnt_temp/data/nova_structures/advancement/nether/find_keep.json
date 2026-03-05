@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:nether/find_nether_skeleton",
+    "criteria": {
+        "minecraft:nether_keep": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_keep"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_keep",
+            "fallback": "Stumble upon a Nether Keep"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:chiseled_nether_bricks"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_keep.title",
+            "fallback": "Concrete Halls"
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:nether_keep"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

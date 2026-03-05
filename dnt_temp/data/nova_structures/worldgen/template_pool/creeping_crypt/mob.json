@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:creeping_crypt/mob",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 9,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_mobs/creeping_crypit_creeper",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_mobs/creeping_crypit_skeleton",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_mobs/creeping_crypit_zombie",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_mobs/creeping_crypit_spider",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:creeping_crypt/crypt_mobs/creeping_crypit_mob_fail",
+				"projection": "rigid",
+				"processors": "minecraft:creeping_crypt_degradation"
+			}
+		}
+	]
+}

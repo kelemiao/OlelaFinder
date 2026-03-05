@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "nova_structures:boss_behaviour": 0,
+      "nova_structures:shulker_boss": 0,
+      "nova_structures:shulker_miniboss": 0
+    }
+  }
+]

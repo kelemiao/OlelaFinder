@@ -1,0 +1,59 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "id": "biomesoplenty:redwood_forest",
+      "required": false
+    },
+    {
+      "id": "byg:redwood_thicket",
+      "required": false
+    },
+    {
+      "id": "projectvibrantjourneys:redwoods",
+      "required": false
+    },
+    {
+      "id": "wythers:flooded_temperate_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_rainforest",
+      "required": false
+    },
+    {
+      "id": "wythers:temperate_rainforest_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_taiga",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_crags",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_eucalyptus_woodland",
+      "required": false
+    },
+    {
+      "id": "wythers:sparse_eucalyptus_jungle",
+      "required": false
+    },
+    {
+      "id": "wythers:old_growth_taiga_swamp",
+      "required": false
+    },
+    {
+      "id": "#clifftree:old_growth_taigas",
+      "required": false
+    }
+  ]
+}

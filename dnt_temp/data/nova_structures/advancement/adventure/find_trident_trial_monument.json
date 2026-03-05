@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:adventure/throw_trident",
+    "criteria": {
+        "ttm": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:trident_trial_monument"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_trident_trial_monument",
+            "fallback": "Take a deep breath and enter the Trident Trial Monument"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:trident"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_trident_trial_monument.title",
+            "fallback": "Breathtaking"
+        }
+    },
+    "requirements": [
+        [
+            "ttm"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

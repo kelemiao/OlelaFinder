@@ -1,0 +1,41 @@
+{
+  "type": "simple_block",
+  "config": {
+    "schedule_tick": true,
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:short_grass",
+            "Properties": {}
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:pale_moss_carpet",
+            "Properties": {}
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:closed_eyeblossom",
+            "Properties": {}
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

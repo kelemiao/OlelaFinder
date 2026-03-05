@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:deepslate_brick_base",
+        "projection": "rigid"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "nova_structures:cave_chamber/deepslate_foundation"
+}

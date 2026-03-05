@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:cave_chamber_base",
+        "projection": "rigid"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "nova_structures:trial_dungeon/foundation"
+}

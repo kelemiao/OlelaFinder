@@ -1,0 +1,87 @@
+{
+	"name": "nova_structures:conduit_ruin/road",
+	"fallback": "nova_structures:conduit_ruin/road_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_crossroad_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_cruve_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_cruve_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_straight_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_straight_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_straight_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_t_curve_1",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_t_curve_2",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:conduit_ruin/road/conduit_ruin_road_t_curve_3",
+				"projection": "rigid",
+				"processors": "nova_structures:conduit_ruin_degradation"
+			}
+		}
+	]
+}

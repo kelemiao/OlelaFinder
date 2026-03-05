@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#nova_structures:nether_skeleton_camps",
+	"#nova_structures:nether_skeleton_towers",
+	"#nova_structures:nether_keep",
+	"#nova_structures:nether_port",
+	"minecraft:fortress"
+  ]
+}
