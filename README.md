@@ -1,6 +1,6 @@
 # Kelebot Gen2 Finder
 
-A powerful Minecraft World Generation API service that provides real-time biome and structure location queries. Built with TypeScript and powered by the [deepslate](https://github.com/misode/deepslate) library, supporting custom datapacks including Tectonic and Dungeons & Taverns.
+A powerful Minecraft World Generation API service that provides real-time biome and structure location queries. Built with TypeScript and powered by the [deepslate](https://github.com/misode/deepslate) library, with flexible support for custom datapacks including Tectonic and Dungeons & Taverns.
 
 ---
 
@@ -10,7 +10,7 @@ A powerful Minecraft World Generation API service that provides real-time biome 
 - **Structure Location** - Find 121+ structures including vanilla and modded content
 - **Area Scanning** - Scan large regions for biomes and structures
 - **Nearest Search** - Locate the closest biome or structure from any point
-- **Datapack Support** - Fully compatible with Tectonic 3.0.13 and Dungeons & Taverns v4.7.3
+- **Datapack Support** - Flexible loading of any custom datapacks (Tectonic, Dungeons & Taverns, etc.)
 - **Fast & Efficient** - Optimized world generation calculations
 - **RESTful API** - Easy-to-use HTTP endpoints
 
@@ -55,6 +55,10 @@ The server will start on `http://localhost:3000` by default.
 
 > **IMPORTANT: All world and datapack configurations are in `src-api/src/config.ts`**
 
+### Quick Start Configuration
+
+A configuration example file is provided at `src-api/config.example.ts`. You can use it as a reference for your own configuration.
+
 ### How to Modify Configuration
 
 Open `src-api/src/config.ts` and edit the following settings:
@@ -76,15 +80,15 @@ export const CONFIG = {
   // Vanilla datapack filename (in public/vanilla_datapacks/)
   vanillaDatapackFile: "vanilla_1_21_7.zip",
 
-  // Tectonic datapack filename (in project root)
-  tectonicDatapackFile: "main_tectonic-datapack-3.0.13 (1).zip",
-
-  // DNT datapack filename (in project root)
-  // Set to empty string "" to disable
-  dntDatapackFile: "Dungeons and Taverns v4.7.3.zip",
-
-  // Additional datapacks (optional)
-  additionalDatapacks: [] as string[],
+  // Custom datapacks to load (optional)
+  // Add any datapack ZIP files you want to load here
+  // Place your datapack files in the project root directory
+  customDatapacks: [
+    // Example: Uncomment to enable
+    // "main_tectonic-datapack-3.0.13 (1).zip",
+    // "Dungeons and Taverns v4.7.3.zip",
+    // "your_custom_pack.zip",
+  ],
 
   // Server port
   port: process.env.PORT || 3000,
@@ -99,21 +103,30 @@ export const CONFIG = {
 | `mcVersion` | Minecraft version (use underscores) | `"1_21_7"` |
 | `dimension` | World dimension | `"minecraft:overworld"` |
 | `worldPreset` | World generation preset | `"minecraft:normal"` |
-| `vanillaDatapackFile` | Vanilla datapack ZIP file | `"vanilla_1_21_7.zip"` |
-| `tectonicDatapackFile` | Tectonic datapack ZIP file | `"main_tectonic-datapack-3.0.13 (1).zip"` |
-| `dntDatapackFile` | DNT datapack ZIP file (or `""` to disable) | `"Dungeons and Taverns v4.7.3.zip"` |
-| `additionalDatapacks` | Array of additional datapack filenames | `["custom_pack.zip"]` |
+| `vanillaDatapackFile` | Vanilla datapack ZIP file (required) | `"vanilla_1_21_7.zip"` |
+| `customDatapacks` | Array of custom datapack filenames (optional) | `["Tectonic-3.0.13.zip"]` |
 | `port` | Server port | `3000` |
+
+### Adding Custom Datapacks
+
+1. Place your datapack ZIP file in the project root directory
+2. Edit `src-api/src/config.ts` and add the filename to `customDatapacks` array:
+   ```typescript
+   customDatapacks: [
+     "Tectonic-3.0.13.zip",
+     "Dungeons and Taverns v4.7.3.zip",
+     "your_custom_pack.zip",
+   ]
+   ```
+3. Restart the server
 
 ### Current Configuration
 
 - **Seed**: `877470420230587172`
 - **Version**: Minecraft 1.21.7
-- **Datapacks**: 
-  - Tectonic 3.0.13
-  - Dungeons & Taverns v4.7.3
-- **Supported Biomes**: 62
-- **Supported Structures**: 121+
+- **Datapacks**: Vanilla only (no custom datapacks by default)
+- **Supported Biomes**: 62 (vanilla)
+- **Supported Structures**: 23+ (vanilla, more with custom datapacks)
 
 ---
 
@@ -250,9 +263,11 @@ GET /api/status
 
 ## Supported Features
 
-### Biomes (62 Total)
+### Biomes
 
-The API supports all vanilla Minecraft 1.21.7 biomes including:
+The API supports all vanilla Minecraft 1.21.7 biomes by default. When you add custom datapacks like Tectonic, additional biomes become available.
+
+Vanilla biomes include:
 - Plains, Forests, Deserts, Jungles, Taigas
 - Ocean variants (Warm, Cold, Frozen, Deep)
 - Mountain biomes (Peaks, Slopes, Meadows)
@@ -262,9 +277,9 @@ The API supports all vanilla Minecraft 1.21.7 biomes including:
 
 See [SUPPORTED_FEATURES.md](src-api/SUPPORTED_FEATURES.md) for the complete list.
 
-### Structures (121+ Total)
+### Structures
 
-#### Vanilla Structures (23)
+#### Vanilla Structures (23+)
 - Villages (5 variants)
 - Temples (Desert, Jungle, Swamp Hut)
 - Monuments (Ocean Monument, Ancient City, Trial Chambers)
@@ -272,15 +287,11 @@ See [SUPPORTED_FEATURES.md](src-api/SUPPORTED_FEATURES.md) for the complete list
 - Nether Fortresses, Bastion Remnants
 - And more...
 
-#### DNT Structures (98+)
-- Taverns (12 variants)
-- Firewatch Towers (10 variants)
-- Villages (Birch, Jungle, Swamp)
-- Dungeons & Crypts (Underground, Catacombs, Trial Dungeons)
-- Shrines (6 combat tiers + tower)
-- Illager structures (Camps, Hideouts, Manors)
-- Nether structures (14 types)
-- End structures (4 types)
+#### Custom Datapack Structures
+When you add custom datapacks like Dungeons & Taverns, additional structures become available:
+- Taverns, Firewatch Towers, Custom Villages
+- Dungeons, Crypts, Shrines
+- Illager structures, Nether structures, End structures
 - And many more...
 
 See [SUPPORTED_FEATURES.md](src-api/SUPPORTED_FEATURES.md) for the complete structure list with IDs.
@@ -316,7 +327,7 @@ OlelaFinder/
 1. Place your datapack ZIP file in the project root directory
 2. Edit `src-api/src/config.ts`:
    ```typescript
-   additionalDatapacks: ["your_custom_pack.zip"]
+   customDatapacks: ["your_custom_pack.zip"]
    ```
 3. Restart the server
 
@@ -346,8 +357,9 @@ curl "http://localhost:3000/api/biome?x=1000&z=2000&y=64"
 curl "http://localhost:3000/api/structures/area?x=0&z=0&radius=2000"
 ```
 
-### Locate nearest DNT tavern
+### Locate nearest custom structure (requires custom datapack)
 ```bash
+# Example with Dungeons & Taverns datapack loaded
 curl "http://localhost:3000/api/locate/structure?structure=nova_structures:tavern_oak&x=0&z=0"
 ```
 

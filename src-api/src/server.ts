@@ -9,9 +9,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// 静态文件服务（用于加载数据包）
+// Static file serving for datapacks
 app.use("/vanilla", express.static(CONFIG.vanillaDatapackDir));
-app.use("/datapacks", express.static(CONFIG.tectonicDatapackDir));
+app.use("/datapacks", express.static(CONFIG.customDatapacksDir));
 
 // API 路由
 app.use("/api", apiRoutes);
@@ -21,7 +21,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
-// 根路由 - API 文档
+// Root route - API documentation
 app.get("/", (req, res) => {
   res.json({
     name: "Kelebot Gen2 Finder",
@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
       seed: CONFIG.seed,
       mcVersion: CONFIG.mcVersion,
       dimension: CONFIG.dimension,
-      datapack: "Tectonic 3.0.13",
+      datapacks: CONFIG.customDatapacks.length > 0 ? CONFIG.customDatapacks : ["vanilla only"],
     },
     endpoints: {
       "GET /api/biome": {
@@ -115,31 +115,31 @@ app.get("/", (req, res) => {
   });
 });
 
-// 启动服务器
+// Start server
 async function start() {
-  console.log("Kelebot Gen2 Finder 正在启动...");
-  console.log(`   种子: ${CONFIG.seed}`);
-  console.log(`   版本: ${CONFIG.mcVersion}`);
-  console.log(`   数据包: Tectonic 3.0.13`);
+  console.log("Kelebot Gen2 Finder starting...");
+  console.log(`   Seed: ${CONFIG.seed}`);
+  console.log(`   Version: ${CONFIG.mcVersion}`);
+  console.log(`   Custom Datapacks: ${CONFIG.customDatapacks.length > 0 ? CONFIG.customDatapacks.join(", ") : "None (vanilla only)"}`);
 
-  // 先启动服务器
+  // Start server first
   await new Promise<void>((resolve) => {
     app.listen(CONFIG.port, () => {
-      console.log(`服务器运行在 http://localhost:${CONFIG.port}`);
+      console.log(`Server running at http://localhost:${CONFIG.port}`);
       resolve();
     });
   });
 
-  // 等待服务器完全启动
+  // Wait for server to fully start
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
-  // 然后初始化计算器
-  console.log("正在加载数据包...");
+  // Then initialize calculator
+  console.log("Loading datapacks...");
   try {
     await initializeCalculator();
-    console.log("计算器初始化完成");
+    console.log("Calculator initialized successfully");
   } catch (error) {
-    console.error("初始化失败:", error);
+    console.error("Initialization failed:", error);
     process.exit(1);
   }
 }

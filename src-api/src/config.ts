@@ -5,40 +5,35 @@ const srcApiRoot = process.cwd();
 const projectRoot = path.resolve(srcApiRoot, "..");
 
 /**
- * Kelebot Gen2 Finder 固定配置
+ * Kelebot Gen2 Finder Configuration
  */
 export const CONFIG = {
-  // 世界种子
+  // World seed
   seed: "877470420230587172",
 
-  // Minecraft 版本
+  // Minecraft version
   mcVersion: "1_21_7",
 
-  // 维度
+  // Dimension
   dimension: "minecraft:overworld",
 
-  // 世界预设
+  // World preset
   worldPreset: "minecraft:normal",
 
-  // 原版数据包文件名
+  // Vanilla datapack filename (required)
   vanillaDatapackFile: "vanilla_1_21_7.zip",
 
-  // Tectonic 数据包文件名
-  tectonicDatapackFile: "main_tectonic-datapack-3.0.13 (1).zip",
+  // Custom datapacks to load (optional)
+  // Add any datapack ZIP files you want to load here
+  // Example: ["Tectonic-3.0.13.zip", "Dungeons and Taverns v4.7.3.zip", "custom_pack.zip"]
+  customDatapacks: [] as string[],
 
-  // DNT (Dungeons and Taverns) 数据包文件名
-  // 设置为空字符串则不加载
-  dntDatapackFile: "Dungeons and Taverns v4.7.3.zip",
-
-  // 额外数据包列表（可选，用于加载更多数据包）
-  additionalDatapacks: [] as string[],
-
-  // 原版数据包目录
+  // Vanilla datapack directory
   vanillaDatapackDir: path.join(projectRoot, "public", "vanilla_datapacks"),
 
-  // Tectonic 数据包目录
-  tectonicDatapackDir: projectRoot,
+  // Custom datapacks directory (where your custom datapack ZIP files are stored)
+  customDatapacksDir: projectRoot,
 
-  // 服务器端口
+  // Server port
   port: process.env.PORT || 3000,
 };

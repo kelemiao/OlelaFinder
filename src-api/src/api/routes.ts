@@ -22,37 +22,26 @@ let structureFinder: StructureFinder | null = null;
 export async function initializeCalculator(): Promise<void> {
   datapackLoader = new DatapackLoader(CONFIG.mcVersion);
 
-  // 通过 HTTP 加载原版数据包
+  // Load vanilla datapack via HTTP (required)
   const vanillaUrl = `http://localhost:${CONFIG.port}/vanilla/${CONFIG.vanillaDatapackFile}`;
   console.log(`Loading vanilla datapack from: ${vanillaUrl}`);
   await datapackLoader.loadVanillaDatapack(vanillaUrl);
 
-  // 通过 HTTP 加载 Tectonic 数据包
-  const tectonicUrl = `http://localhost:${CONFIG.port}/datapacks/${encodeURIComponent(CONFIG.tectonicDatapackFile)}`;
-  console.log(`Loading Tectonic datapack from: ${tectonicUrl}`);
-  await datapackLoader.addDatapackFromUrl(tectonicUrl);
-
-  // 加载 DNT (Dungeons and Taverns) 数据包
-  if (CONFIG.dntDatapackFile) {
-    const dntUrl = `http://localhost:${CONFIG.port}/datapacks/${encodeURIComponent(CONFIG.dntDatapackFile)}`;
-    console.log(`Loading DNT datapack from: ${dntUrl}`);
-    try {
-      await datapackLoader.addDatapackFromUrl(dntUrl);
-      console.log("DNT datapack loaded successfully");
-    } catch (error) {
-      console.warn(`Failed to load DNT datapack: ${error instanceof Error ? error.message : error}`);
+  // Load custom datapacks (optional)
+  if (CONFIG.customDatapacks.length > 0) {
+    console.log(`Loading ${CONFIG.customDatapacks.length} custom datapack(s)...`);
+    for (const datapackFile of CONFIG.customDatapacks) {
+      const url = `http://localhost:${CONFIG.port}/datapacks/${encodeURIComponent(datapackFile)}`;
+      console.log(`  - Loading: ${datapackFile}`);
+      try {
+        await datapackLoader.addDatapackFromUrl(url);
+        console.log(`    ✓ Loaded successfully`);
+      } catch (error) {
+        console.warn(`    ✗ Failed to load: ${error instanceof Error ? error.message : error}`);
+      }
     }
-  }
-
-  // 加载额外数据包
-  for (const datapackFile of CONFIG.additionalDatapacks) {
-    const url = `http://localhost:${CONFIG.port}/datapacks/${encodeURIComponent(datapackFile)}`;
-    console.log(`Loading additional datapack from: ${url}`);
-    try {
-      await datapackLoader.addDatapackFromUrl(url);
-    } catch (error) {
-      console.warn(`Failed to load datapack ${datapackFile}: ${error instanceof Error ? error.message : error}`);
-    }
+  } else {
+    console.log("No custom datapacks configured (using vanilla only)");
   }
 
   // 加载维度数据
@@ -346,13 +335,9 @@ let currentDimension = CONFIG.dimension;
  * 获取当前状态
  */
 router.get("/status", (req: Request, res: Response) => {
-  const datapacks = ["Tectonic 3.0.13"];
-  if (CONFIG.dntDatapackFile) {
-    datapacks.push("Dungeons and Taverns v4.7.3");
-  }
-  if (CONFIG.additionalDatapacks.length > 0) {
-    datapacks.push(...CONFIG.additionalDatapacks);
-  }
+  const datapacks = CONFIG.customDatapacks.length > 0 
+    ? CONFIG.customDatapacks 
+    : ["vanilla only"];
 
   res.json({
     initialized: biomeCalculator?.isInitialized() ?? false,
