@@ -1,6 +1,7 @@
 {
-  "name": "kelebot-gen2-finder",
+  "name": "olela-finder",
   "version": "1.0.0",
+  "description": "Minecraft World Generation API - Real-time biome and structure location queries",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",

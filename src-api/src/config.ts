@@ -5,7 +5,7 @@ const srcApiRoot = process.cwd();
 const projectRoot = path.resolve(srcApiRoot, "..");
 
 /**
- * Kelebot Gen2 Finder Configuration
+ * OlelaFinder Configuration
  */
 export const CONFIG = {
   // World seed

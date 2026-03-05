@@ -4,7 +4,7 @@ const srcApiRoot = process.cwd();
 const projectRoot = path.resolve(srcApiRoot, "..");
 
 /**
- * Kelebot Gen2 Finder Configuration Example
+ * OlelaFinder Configuration Example
  * 
  * Copy this file to config.ts and modify as needed.
  */

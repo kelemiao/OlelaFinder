@@ -1,6 +1,6 @@
-# Kelebot Gen2 Finder - 支持的功能列表
+# OlelaFinder - Supported Features
 
-> 版本: 1.1.0  
+> Version: 1.1.0  
 > Minecraft 版本: 1.21.7  
 > 数据包: Tectonic 3.0.13 + Dungeons and Taverns v4.7.3  
 > 更新日期: 2024-12-21

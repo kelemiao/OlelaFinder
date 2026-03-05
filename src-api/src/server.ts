@@ -24,7 +24,7 @@ app.get("/health", (req, res) => {
 // Root route - API documentation
 app.get("/", (req, res) => {
   res.json({
-    name: "Kelebot Gen2 Finder",
+    name: "OlelaFinder",
     version: "1.0.0",
     config: {
       seed: CONFIG.seed,
@@ -117,7 +117,7 @@ app.get("/", (req, res) => {
 
 // Start server
 async function start() {
-  console.log("Kelebot Gen2 Finder starting...");
+  console.log("OlelaFinder starting...");
   console.log(`   Seed: ${CONFIG.seed}`);
   console.log(`   Version: ${CONFIG.mcVersion}`);
   console.log(`   Custom Datapacks: ${CONFIG.customDatapacks.length > 0 ? CONFIG.customDatapacks.join(", ") : "None (vanilla only)"}`);

@@ -1,4 +1,4 @@
-# Kelebot Gen2 Finder
+# OlelaFinder
 
 A powerful Minecraft World Generation API service that provides real-time biome and structure location queries. Built with TypeScript and powered by the [deepslate](https://github.com/misode/deepslate) library, with flexible support for custom datapacks including Tectonic and Dungeons & Taverns.
 

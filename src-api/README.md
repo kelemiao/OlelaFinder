@@ -1,10 +1,10 @@
-# Kelebot Gen2 Finder
-## 固定配置
+# OlelaFinder
+## Configuration
 
-- 种子: `877470420230587172`
-- 版本: `1.21.7`
-- 数据包: `Tectonic 3.0.13`
-- 世界类型: 默认
+- Seed: `877470420230587172`
+- Version: `1.21.7`
+- Datapacks: Configurable (see config.ts)
+- World Type: Default
 
 ## 安装
 
